@@ -1,4 +1,4 @@
-# app-dev-testing-permissions
+# app-dev-testing-permissions-REST
 App to test the standard permission on the REST API
 
 ## Tests to prepare
@@ -40,4 +40,7 @@ App to test the standard permission on the REST API
 1. a content-type with read permissions for anonymous
     1. everybody should be able to read
 
-## Owner tests
+## Query Tests
+1. Create a query without permissions - anon and registered should not be able to query
+1. create a query with a group-permissions, that should be able to read, anon not
+1. create a public query (anon-read), that should work
