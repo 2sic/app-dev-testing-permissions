@@ -1,21 +1,39 @@
 # app-dev-testing-permissions-REST
 App to test the standard permission on the REST API
 
+## Permission Setup
+
+Create these groups and users to start:
+
+1. In the existing admin-group, create a user called
+    1. Papa Smurf
+1. Group **Smurfs** with Members
+    1. Brainy Smurf
+    1. Greede Smurf
+    1. Smurfette
+1. Group **Bad Guys** with members
+    1. Gargamel
+    1. Azrael
+1. In the group of registered users, just put in some non-smurfs:
+    1. Lone Ranger
+    1. Spiderman
+    1. Hulk
+
 ## Tests to prepare
 
 1. A content-type without permissions. Access to the API for this type (read, write, delete) should result in the following effects
     1. host-user: everything works
-    1. admin-user: everything works
-    1. edit-user: nothing works
-    1. registered user: nothing works
-    1. Anonymou user: nothing works
-1. a content-type with read permissions for a certain group of users. Test it
+    1. Accounting (admin-user): everything works
+    1. Smurfette (user with some page-edit permissions): nothing works
+    1. Spiderman (registered user): nothing works
+    1. Anonymous user: nothing works
+1. a content-type with read permissions for a **Smurfs** . Test it
     1. with a user in this group, it should work
     1. with a user in another group, this should fail
     1. with anonymous users this should fail
     
 ## Owner tests
-1. a content-type with create permissions for a certain group of users. Test it
+1. a content-type with create permissions for **Smurfs**. Test it
     1. with users in this group, 
         1. create should work
         1. read should fail (because only create is given)
