@@ -1,21 +1,22 @@
 <!-- this includes the $2sxc helpers necessary to work --> 
 <script src="/desktopmodules/tosic_sexycontent/js/2sxc.api.min.js"></script>
 
-<h1>Test01-content-type without permissions</h1>
+<h1>Test03-content-type with create permissions for Smurfs</h1>
 
-<div>A content-type without permissions. Access to the API for this type (read,
-write, delete) should result in the following effects:</div>
 <ol>
-    <li>host-user: everything works</li>
-    <li>Accounting (admin-user): everything works</li>
-    <li>Smurfette (user with some page-edit permissions): nothing works</li>
-    <li>Spiderman (registered user): nothing works</li>
-    <li>Anonymous user: nothing works</li>
+    <li>with a user in this group:</li>
+    <ol>
+      <li>create should work</li>
+      <li>read should fail (because only create is given)</li>
+    </ol>
+    <li>with a user in another group, create and read should fail</li>
+    <li>with anonymous users, create and read should fail</li>
 </ol>
 
  <div>
      @Edit.Toolbar(Content)
- </div>   
+ </div>  
+
  <div>
      <div>@Content.EntityGuid</div>
      <div>@Content.EntityId</div>
@@ -28,7 +29,7 @@ write, delete) should result in the following effects:</div>
     
 <input type="button" onclick="getAllItems(this)" value="click to start (i)">
 
-<h2>t01-content-type-without-permissions</h2>
+<h2>t03-content-type-C</h2>
 <div id="message"></div>
 <ol id="items">
 </ol>
@@ -40,7 +41,7 @@ write, delete) should result in the following effects:</div>
 <script>
     // this is the simple, in-page / in-template code
     function getAllItems(mod) {
-        $2sxc(mod).webApi.get('app/auto/content/t01-content-type-without-permissions')
+        $2sxc(mod).webApi.get('app/auto/content/t03-content-type-C')
             .then(showUpdatedList);
     };
 
@@ -48,7 +49,7 @@ write, delete) should result in the following effects:</div>
         if(!confirm('are you sure?'))
             return;
 
-        $2sxc(mod).webApi.delete('app/auto/content/t01-content-type-without-permissions/' + entityId)
+        $2sxc(mod).webApi.delete('app/auto/content/t03-content-type-C/' + entityId)
             .then(function(data) {
                 // use the data to show a message
                 getAllItems(mod);
@@ -60,7 +61,7 @@ write, delete) should result in the following effects:</div>
         var newItem = createDemoItem();
 
         // this is the "normal" mode demo - where we're working on the current module
-        $2sxc(moduleId).webApi.post('app/auto/content/t01-content-type-without-permissions', {}, newItem)
+        $2sxc(moduleId).webApi.post('app/auto/content/t03-content-type-C', {}, newItem)
             .then(function(data){
                 showSuccess(data);
                 getAllItems(moduleId);
