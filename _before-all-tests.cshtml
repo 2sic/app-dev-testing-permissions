@@ -1,0 +1,59 @@
+<h1>app-dev-testing-permissions-REST</h1>
+<h2>before all tests</h2>
+
+<link rel="stylesheet" href="@App.Path/lib/jasmine-3.2.1/jasmine.css">
+<script src="@App.Path/lib/jasmine-3.2.1/jasmine.js"></script>
+<script src="@App.Path/lib/jasmine-3.2.1/jasmine-html.js"></script>
+<script src="@App.Path/lib/jasmine-3.2.1/boot.js"></script>
+<script src="@App.Path/lib/spec-console-reporter.js"></script>
+<script src="@App.Path/spec/spec-helper.js"></script>
+<script>
+  // jasmine.getEnv().clearReporters()
+  // jasmine.getEnv().addReporter(consoleReporter);
+  jasmine.getEnv().randomizeTests(false);
+</script>
+<!-- include source files here... -->
+<script src="/desktopmodules/tosic_sexycontent/js/2sxc.api.min.js"></script>
+<script>
+  var appFolder = '@App.Folder';
+  var apiUrl = '/DesktopModules/2sxc/API/app/' + appFolder + '/api/';
+  var userId = @Dnn.User.UserID;
+  var username = '@Dnn.User.Username';
+</script>
+<script src="@App.Path/src/dnn-user.js"></script>
+<script src="@App.Path/src/test-dnn-users.js"></script>
+
+<hr>
+<h2>Click on button to sign in</h2>
+<div>
+  <button onclick="login(users.SuperUser, passwords.default); reload(); return false;">Sign in SuperUser (Host)</button>
+</div>
+<div>
+  <button onclick="login(users.PapaSmurf, passwords.default); reload(); return false;">Sign in Papa Smurf (Administrator)</button>
+</div>
+<div>
+  <button onclick="login(users.Smurfette, passwords.default); reload(); return false;">Sign in Smurfette (Smurfs)</button>
+</div>
+<div>
+  <button onclick="login(users.Gargamel, passwords.default); reload(); return false;">Sign in Gargamel (Bad Guys)</button>
+</div>
+<div>
+  <button onclick="login(users.Hulk, passwords.default); reload(); return false;">Sign in Hulk (Registered)</button>
+</div>
+<div>
+  <button onclick="login(users.AppSmurf, passwords.default); reload(); return false;">Sign in AppSmurf (Smurfs, for app-permission checks)</button>
+</div>
+<div>
+  <button onclick="logout(); reload(); return false;">Sign out</button>
+</div>
+<p></p>
+
+<h2>Currnet user</h2>
+<div>
+  <label>UserID</label>:
+  <strong>@Dnn.User.UserID</strong>
+</div>
+<div>
+  <label>Username</label>:
+  <strong>@Dnn.User.Username</strong>
+</div>

@@ -1,0 +1,15 @@
+<h1>5 - Query Tests</h1>
+<h3>content-type without permissions</h3>
+<ol>
+    <li>create a query without permissions - anon and registered should not be able to query</li>
+    <li>create a query with a group-permissions, that should be able to read, anon not</li>
+    <li>create a public query (anon-read), that should work</li>
+</ol>
+<script src="@App.Path/spec/t5.spec.js"></script>
+<script>
+  const t5 = {
+    moduleId: @Dnn.Module.ModuleID,
+    appFolder: '@App.Folder',
+  }
+  t5spec(t11.moduleId, t11.appFolder);
+</script>

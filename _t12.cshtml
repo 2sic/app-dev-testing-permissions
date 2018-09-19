@@ -1,0 +1,16 @@
+<h2>@Content.EntityType</h2>
+<h3>content-type with read permissions for a Smurfs</h3>
+<ol>
+    <li>with a user in this group, it should work</li>
+    <li>with a user in another group, this should fail</li>
+    <li>with anonymous users this should fail</li>
+</ol>
+<script src="@App.Path/spec/t12.spec.js"></script>
+<script>
+  const t12 = {
+    moduleId: @Dnn.Module.ModuleID,
+    appFolder: '@App.Folder',
+    entityType: '@Content.EntityType',
+  }
+  t12spec(t12.moduleId, t12.appFolder, t12.entityType);
+</script>

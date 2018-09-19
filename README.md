@@ -54,7 +54,7 @@ Create these groups and users to start:
     1. other registered users should not
     1. anonymous not
     1. only the owner should be able to delete it
-    1. other regitsered users not
+    1. other registered users not
     1. anonymous not
     
 ## Anonymous Tests (t4x...)
