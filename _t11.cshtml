@@ -1,5 +1,15 @@
 <h1>@Content.EntityType</h1>
-<script src="@App.Path/spec/test1.spec.js"></script>
+<h2>content-type without permissions</h2>
+<div>A content-type without permissions. Access to the API for this type (read,
+write, delete) should result in the following effects:</div>
+<ol>
+    <li>host-user: everything works</li>
+    <li>Accounting (admin-user): everything works</li>
+    <li>Smurfette (user with some page-edit permissions): nothing works</li>
+    <li>Spiderman (registered user): nothing works</li>
+    <li>Anonymous user: nothing works</li>
+</ol>
+<script src="@App.Path/spec/t11.spec.js"></script>
 <script>
   var moduleId = @Dnn.Module.ModuleID;
   var appFolder = '@App.Folder';
