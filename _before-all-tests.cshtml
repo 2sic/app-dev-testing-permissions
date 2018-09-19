@@ -21,23 +21,24 @@
   var username = '@Dnn.User.Username';
 </script>
 <script src="@App.Path/src/dnn-user.js"></script>
+<script src="@App.Path/src/test-dnn-users.js"></script>
 
 <hr>
 <h2>Click on button to sign in</h2>
 <div>
-  <button onclick="login('SuperUser','Split2018!'); reload(); return false;">Sign in SuperUser (Host)</button>
+  <button onclick="login(users.SuperUser, passwords.default); reload(); return false;">Sign in SuperUser (Host)</button>
 </div>
 <div>
-  <button onclick="login('Papa Smurf','Split2018!'); reload(); return false;">Sign in Papa Smurf (Administrator)</button>
+  <button onclick="login(users.PapaSmurf, passwords.default); reload(); return false;">Sign in Papa Smurf (Administrator)</button>
 </div>
 <div>
-  <button onclick="login('Smurfette','Split2018!'); reload(); return false;">Sign in Smurfette (Smurfs)</button>
+  <button onclick="login(users.Smurfette, passwords.default); reload(); return false;">Sign in Smurfette (Smurfs)</button>
 </div>
 <div>
-  <button onclick="login('Gargamel','Split2018!'); reload(); return false;">Sign in Gargamel (Bad Guys)</button>
+  <button onclick="login(users.Gargamel, passwords.default); reload(); return false;">Sign in Gargamel (Bad Guys)</button>
 </div>
 <div>
-  <button onclick="login('Hulk','Split2018!'); reload(); return false;">Sign in Hulk (Registered)</button>
+  <button onclick="login(users.Hulk, passwords.default); reload(); return false;">Sign in Hulk (Registered)</button>
 </div>
 <div>
   <button onclick="logout(); reload(); return false;">Sign out</button>

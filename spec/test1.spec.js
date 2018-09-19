@@ -22,12 +22,25 @@ function t11(moduleId, appFolder, entityType) {
     it("create new item", (done) => {
       $2sxc(moduleId).webApi.post('app/' + appFolder + '/content/' + entityType, {}, createDemoItem())
         .always(function (data) {
-          if (username) {
-            expect(data).toBeNull();
-          } else {
-            // expect(window.alertShown).toAlertShown();
-            // Permission denied. required permissions for this type are not given
-            expect(data.status).toBe(403);
+          switch (username) {
+            case users.SuperUser: // Host user
+              expect(data).toBeNull();
+              break;
+            case users.PapaSmurf: // Administrator
+              expect(data).toBeNull();
+              break;
+            case users.Smurfette: // Smurfs group
+              expect(data.status).toBe(403);
+              break;
+            case users.Gargamel: // Bad Guys group
+              expect(data.status).toBe(403);
+              break;
+            case users.Hulk: // Registered user
+              expect(data.status).toBe(403);
+              break;
+            case users.Anonymous: // without user
+            default:
+              expect(data.status).toBe(403);
           }
           done();
         });
