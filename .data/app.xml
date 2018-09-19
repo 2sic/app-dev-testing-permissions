@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.33.00" ExportDate="2018-09-19T14:30:09.8164141+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.33.00" ExportDate="2018-09-19T23:33:32.3221162+02:00">
   <Header>
     <App Guid="65e3a296-b75d-4e7d-a707-524216608e63" />
     <Language Default="en-US" />
@@ -102,28 +102,12 @@
       <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String" />
       <Value Key="RequiredVersion" Value="08.03.00" Type="String" />
       <Value Key="SupportsAjaxReload" Value="False" Type="Boolean" />
-      <Value Key="Version" Value="00.00.02" Type="String" />
+      <Value Key="Version" Value="01.00.00" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="d80a883a-450c-48a3-9a60-106678d04bcf" KeyNumber="37" />
     <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="a8007adf-c608-4bf9-a559-0e0a1d58dcbf" KeyNumber="37" />
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="3a4a3ca2-2ba8-44eb-9f84-883cfbb02d98">
-      <Value Key="ContentDemoEntity" Value="943a3f64-6123-4647-ad88-3868d5011cbc" Type="Entity" />
-      <Value Key="ContentTypeStaticName" Value="aa40f3ba-c671-463e-b0a7-4adbfd78513a" Type="String" />
-      <Value Key="IsHidden" Value="False" Type="Boolean" />
-      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
-      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t11-content-type-without-permissions" Type="String" />
-      <Value Key="Path" Value="_t11-content-type-without-permissions.cshtml" Type="String" />
-      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="PublishData" Value="False" Type="Boolean" />
-      <Value Key="StreamsToPublish" Value="" Type="String" />
-      <Value Key="Type" Value="C# Razor" Type="String" />
-      <Value Key="UseForList" Value="False" Type="Boolean" />
-      <Value Key="ViewNameInUrl" Value="" Type="String" />
-    </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="943a3f64-6123-4647-ad88-3868d5011cbc">
-      <Value Key="Title" Value="t01-001" Type="String" />
+      <Value Key="Title" Value="t11-001" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="236e17b3-a6e0-4f05-93a5-4eb4cd1e324d">
       <Value Key="Title" Value="New item from 2018-09-18T21:08:21.579Z" Type="String" />
@@ -147,13 +131,10 @@
       <Value Key="Title" Value="read permissions for a Smurfs" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t12-content-type-R" EntityGUID="4b9c8bcc-afd6-4318-8733-3682124f39f2">
-      <Value Key="Title" Value="t02-001" Type="String" />
+      <Value Key="Title" Value="t12-001" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t12-content-type-R" EntityGUID="7288cd19-ef93-4998-a3f0-52208a636e28">
       <Value Key="Title" Value="New item from 2018-09-18T21:38:43.360Z" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t12-content-type-R" EntityGUID="65e9feeb-db38-441f-82e0-f0accc94e48c">
-      <Value Key="Title" Value="New item from 2018-09-18T21:38:45.031Z" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="dde3ce10-3f64-4411-afd5-8842e4714944" KeyGuid="60ff15ed-26d7-46c3-87d2-e2b84828daf6">
       <Value Key="Condition" Value="" Type="String" />
@@ -162,39 +143,7 @@
       <Value Key="Title" Value="create permissions for Smurfs" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="163d13e0-3fb5-440e-ad0c-577c7010e49b">
-      <Value Key="Title" Value="t03-001" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="4afdba3a-8160-4f62-af21-52f628cce3f3">
-      <Value Key="ContentDemoEntity" Value="163d13e0-3fb5-440e-ad0c-577c7010e49b" Type="Entity" />
-      <Value Key="ContentTypeStaticName" Value="60ff15ed-26d7-46c3-87d2-e2b84828daf6" Type="String" />
-      <Value Key="IsHidden" Value="False" Type="Boolean" />
-      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
-      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t31-content-type-C" Type="String" />
-      <Value Key="Path" Value="_t31-content-type-C.cshtml" Type="String" />
-      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="PublishData" Value="False" Type="Boolean" />
-      <Value Key="StreamsToPublish" Value="" Type="String" />
-      <Value Key="Type" Value="C# Razor" Type="String" />
-      <Value Key="UseForList" Value="False" Type="Boolean" />
-      <Value Key="ViewNameInUrl" Value="" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="f0f5c4ff-538f-41dd-ab08-7e3d01ee357b">
-      <Value Key="ContentDemoEntity" Value="4b9c8bcc-afd6-4318-8733-3682124f39f2" Type="Entity" />
-      <Value Key="ContentTypeStaticName" Value="9e6401e5-49bd-409d-be83-ac96e40b0c87" Type="String" />
-      <Value Key="IsHidden" Value="False" Type="Boolean" />
-      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
-      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t12-content-type-R" Type="String" />
-      <Value Key="Path" Value="_t12-content-type-R.cshtml" Type="String" />
-      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="PublishData" Value="False" Type="Boolean" />
-      <Value Key="StreamsToPublish" Value="" Type="String" />
-      <Value Key="Type" Value="C# Razor" Type="String" />
-      <Value Key="UseForList" Value="False" Type="Boolean" />
-      <Value Key="ViewNameInUrl" Value="" Type="String" />
+      <Value Key="Title" Value="t31-001" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="0f6710d0-cee9-4368-89ae-ec4ac21810ee">
       <Value Key="Title" Value="New item from 2018-09-19T04:13:14.911Z" Type="String" />
@@ -218,23 +167,7 @@
       <Value Key="Title" Value="&quot;registered&quot; create permissions" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="0886ed2a-c3a1-43f9-a8a2-76c9ef77a928">
-      <Value Key="Title" Value="t04-001" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="8883a1b0-01a0-4d77-a6ad-2e45fd5fe54a">
-      <Value Key="ContentDemoEntity" Value="0886ed2a-c3a1-43f9-a8a2-76c9ef77a928" Type="Entity" />
-      <Value Key="ContentTypeStaticName" Value="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" Type="String" />
-      <Value Key="IsHidden" Value="False" Type="Boolean" />
-      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
-      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t32-content-type-ED-regR" Type="String" />
-      <Value Key="Path" Value="_t32-content-type-ED-regR.cshtml" Type="String" />
-      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="PublishData" Value="False" Type="Boolean" />
-      <Value Key="StreamsToPublish" Value="" Type="String" />
-      <Value Key="Type" Value="C# Razor" Type="String" />
-      <Value Key="UseForList" Value="False" Type="Boolean" />
-      <Value Key="ViewNameInUrl" Value="" Type="String" />
+      <Value Key="Title" Value="t32-001" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="e41a1cf2-df24-4fd4-a3d8-dfc0d1e9642c">
       <Value Key="Title" Value="New item from 2018-09-19T04:33:38.546Z" Type="String" />
@@ -245,22 +178,6 @@
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="bc6406bd-5f9f-4aca-9113-ddf3e341ad02">
       <Value Key="Title" Value="New item from 2018-09-19T04:42:45.302Z" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="c1d4c500-51ba-4d84-b832-b0d92a691f5f">
-      <Value Key="ContentDemoEntity" Value="53b2c302-8174-4994-9180-abe362a30194" Type="Entity" />
-      <Value Key="ContentTypeStaticName" Value="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" Type="String" />
-      <Value Key="IsHidden" Value="False" Type="Boolean" />
-      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
-      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t41-content-type-anonC" Type="String" />
-      <Value Key="Path" Value="_t41-content-type-anonC.cshtml" Type="String" />
-      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="PublishData" Value="False" Type="Boolean" />
-      <Value Key="StreamsToPublish" Value="" Type="String" />
-      <Value Key="Type" Value="C# Razor" Type="String" />
-      <Value Key="UseForList" Value="False" Type="Boolean" />
-      <Value Key="ViewNameInUrl" Value="" Type="String" />
-    </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="c196d4b2-b0cc-4282-85df-6d4a690fee47" KeyGuid="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7">
       <Value Key="Condition" Value="SecurityAccessLevel.Anonymous" Type="String" />
       <Value Key="Grant" Value="c" Type="String" />
@@ -268,7 +185,7 @@
       <Value Key="Title" Value="create permissions for anonymous" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="53b2c302-8174-4994-9180-abe362a30194">
-      <Value Key="Title" Value="t05-001" Type="String" />
+      <Value Key="Title" Value="t41-001" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="310bc4f4-381d-4e60-b2a6-21d11a71cef0" KeyGuid="1236a4af-4bc6-41cb-9e4d-121d829870e6">
       <Value Key="Condition" Value="SecurityAccessLevel.Anonymous" Type="String" />
@@ -277,23 +194,7 @@
       <Value Key="Title" Value="create-draft permissions for anonymous" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="1236a4af-4bc6-41cb-9e4d-121d829870e6" AttributeSetName="t42-content-type-anonCDr" EntityGUID="8c806ae3-bf7e-4f1a-8aa1-851cf9199427">
-      <Value Key="Title" Value="t06-001" Type="String" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="e91505bf-bd1f-4504-96db-0f9492f3ccdd">
-      <Value Key="ContentDemoEntity" Value="8c806ae3-bf7e-4f1a-8aa1-851cf9199427" Type="Entity" />
-      <Value Key="ContentTypeStaticName" Value="1236a4af-4bc6-41cb-9e4d-121d829870e6" Type="String" />
-      <Value Key="IsHidden" Value="False" Type="Boolean" />
-      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
-      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t42-content-type-anonCDr" Type="String" />
-      <Value Key="Path" Value="_t42-content-type-anonCDr.cshtml" Type="String" />
-      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="PublishData" Value="False" Type="Boolean" />
-      <Value Key="StreamsToPublish" Value="" Type="String" />
-      <Value Key="Type" Value="C# Razor" Type="String" />
-      <Value Key="UseForList" Value="False" Type="Boolean" />
-      <Value Key="ViewNameInUrl" Value="" Type="String" />
+      <Value Key="Title" Value="t42-001" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="97b57c4f-a2cc-4845-9d76-4a267d269872" KeyGuid="59d8a385-1f1b-47b3-8991-b2857047cba2">
       <Value Key="Condition" Value="SecurityAccessLevel.Anonymous" Type="String" />
@@ -301,24 +202,8 @@
       <Value Key="Identity" Value="" Type="String" />
       <Value Key="Title" Value="read permissions for anonymous" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="8e6b731d-433c-4ae5-a43a-6b069d7d5c81">
-      <Value Key="ContentDemoEntity" Value="74509733-003f-47db-ba15-389a4aa44fce" Type="Entity" />
-      <Value Key="ContentTypeStaticName" Value="59d8a385-1f1b-47b3-8991-b2857047cba2" Type="String" />
-      <Value Key="IsHidden" Value="False" Type="Boolean" />
-      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
-      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t43-content-type-anonR" Type="String" />
-      <Value Key="Path" Value="_t43-content-type-anonR.cshtml" Type="String" />
-      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
-      <Value Key="PublishData" Value="False" Type="Boolean" />
-      <Value Key="StreamsToPublish" Value="" Type="String" />
-      <Value Key="Type" Value="C# Razor" Type="String" />
-      <Value Key="UseForList" Value="False" Type="Boolean" />
-      <Value Key="ViewNameInUrl" Value="" Type="String" />
-    </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="59d8a385-1f1b-47b3-8991-b2857047cba2" AttributeSetName="t43-content-type-anonR" EntityGUID="74509733-003f-47db-ba15-389a4aa44fce">
-      <Value Key="Title" Value="t07-001" Type="String" />
+      <Value Key="Title" Value="t43-001" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="4368cb93-2036-4ae5-921c-ef58e443a31e">
       <Value Key="ContentDemoEntity" Value="943a3f64-6123-4647-ad88-3868d5011cbc" Type="Entity" />
@@ -335,6 +220,930 @@
       <Value Key="Type" Value="C# Razor" Type="String" />
       <Value Key="UseForList" Value="False" Type="Boolean" />
       <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="594acb8d-d252-4447-a53b-6f294d83203d">
+      <Value Key="Title" Value="New item from 2018-09-19T13:46:34.815Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="d574dd6f-d42c-4ad2-b0b7-d130e88a73a7">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T13:52:43.242Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="2bf7fd9b-0869-4c03-8995-1219f3ad1921">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T13:52:45.670Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="71fb5821-c707-4924-a997-24b84ce39880">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T13:53:12.243Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="2f57e4a8-5b69-4294-8bbc-5fbe600a446e">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T13:53:58.890Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="a188a688-15d3-438f-b9cd-c3c4b3e8cecd">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T13:55:37.243Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="e5b6ecd8-7fa5-4c7d-9fb3-5ef019ddbd04">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T13:55:50.516Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="9616dc38-5ed4-47e6-bf3d-60317e5f17e3">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T13:58:53.761Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="ada4a14a-7c8e-4ea1-9369-543f60d15753">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T13:59:06.145Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="2327155a-015d-4827-a55a-6221ae279ddb">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:01:37.656Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="34f3fa54-02e5-406a-a5f3-d388989cdc9b">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:03:16.043Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="47ca50c5-dd84-4cf5-97c3-767ac389519c">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:04:26.190Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="e7937a26-a285-4276-9fee-e5d78dadd501">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:05:17.247Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="1e3ba4fe-4f63-4da1-a80a-028b3ac305ba">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:05:25.964Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="8ed801a1-cea9-49b0-9459-efa4064896c4">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:07:24.674Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="3235511c-ace2-4b61-89bc-f6b1b3a63a65">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:09:49.232Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="c0418bb9-6638-4e43-96d4-af5e575796e6">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:09:55.944Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="7519a61e-799d-44c8-8850-b256789d4d31">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:10:31.635Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="7281f8d8-869c-48e7-b34c-2da7565bf8ff">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:10:58.327Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="563ec9e7-b0e0-4113-b1f1-0026e4483384">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:11:12.496Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="e7bac4d3-e931-422a-b58d-4065636d3fae">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:12:13.271Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="1ecf71f0-f356-46fc-be55-9db09109f72c">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:12:23.174Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="e7e80ef8-97cf-49c6-86c9-c0b8d5537be9">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:13:09.462Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="f00327bb-efd5-40b9-a01f-1dbca262c5d8">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:13:27.433Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="090e314f-887e-4fe4-9f1e-3b27f0489150">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:13:45.657Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="2ff18b64-9226-4d03-ad5b-47f1828d895c">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:13:54.329Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="c3e134c1-34a6-4a4a-8e00-a23ae087b5c1">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:14:01.936Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="4090535e-3411-4eed-85d0-0fa1fd7bae57">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:14:09.626Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="3f0f4cf7-a85b-400b-a0cc-a9402b2d9bb4">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:14:53.494Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="0d15ccc0-7ab6-4a0f-aa54-d936f745ca20">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:16:49.870Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="928c324f-ccde-462c-bb8b-2953ae03a257">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:17:01.354Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="2a4901bc-8140-472d-aa2d-4d0b4979c0fc">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:17:41.821Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="e44ba975-3f50-4420-8254-102af22c1835">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:31:36.161Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="0d8a9706-3871-496a-aa7a-de6082860cf3">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:31:49.378Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="0b97736a-0640-4edc-94f1-657e2baa0934">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:31:51.071Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="ed3cde58-5f11-4620-a9f7-32cbf617c19f">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:32:14.201Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="1edb6db0-61d8-43d3-89ba-1969487b24eb">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:32:20.023Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="9b6f3c0c-4824-4de9-912c-e3574239483a">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:32:24.471Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="7bf20b7f-e1ff-4337-bf8f-46a084bf3e56">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:45:39.275Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="00cc1d73-c247-4d8b-a502-a96799e88a53">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:45:47.998Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="80b46db1-ea29-48b5-abff-ef892e93d664">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:45:57.719Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="7028a1fb-1e62-4d72-afc3-4f5e84b74e35">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T14:45:59.932Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="6fe8ba6d-0a8b-45b4-bc88-f3ee55c1cb19">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T15:10:00.100Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="4da4375d-d115-45c6-98d5-aa5e3782261e">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T15:10:13.382Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="b21ff509-c17c-429d-895b-9660ccf58001">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T15:10:41.509Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="8a85aa93-fa08-4103-aae5-4821efe243ad">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T15:30:46.827Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="f685e042-db62-49f8-89a7-cf241b50ae93">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T15:38:07.362Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="a4325fbd-e4d3-4201-8547-9260cebcfefa">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T15:38:51.448Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="d625f5b3-c2bc-41c4-a82c-9d7c76720305">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T15:39:04.586Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="f6b4dd3d-fedc-458d-a4af-73074908b6b8">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T15:49:19.560Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="b48874d7-5b70-4949-af51-dec4930134d8">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:06:55.292Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="70d3eb1a-17d0-48b8-aba7-f43b83d80817">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:09:03.782Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="4e5b29a2-c2bc-442b-a8c7-787e54c4b25c">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:09:32.887Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="00077574-7adf-433d-8764-f3d1149d636f">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:09:38.355Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="b6bfa661-5057-45bb-b0e3-af38a7296d63">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:09:43.026Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="8ae62e97-0223-4752-8d29-d7cd89e6d649">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:10:08.323Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="346a8ff1-1f71-4dd0-a17d-05f09875e8be">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:14:02.657Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="97c1bffd-ea7e-4845-8ae6-52d43bd8d5bb">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:14:05.313Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="8a1b85bd-a138-4283-869a-01554b658dec">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:14:19.201Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="5aea969e-58af-4584-82e3-b252501d19fe">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:14:27.395Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="c0be062f-893a-4a52-b3c7-be6c6ab4c900">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:14:28.641Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="605126c3-7dad-4d09-988f-844145438b31">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:14:31.604Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="8d6ea54b-a1ab-44fc-9030-a29206bc32d6">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:15:07.967Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="596d8442-c701-468f-99db-12cd66836742">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T16:16:45.842Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="d4e3d840-f57c-450b-abd9-3b840287e6a5">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:03:43.428Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="a899494b-90e9-4165-a16f-99608e513f67">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:04:47.536Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="4caa7054-2006-4748-8937-8a5bb166b7e8">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:08:18.752Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="f8e8961c-8659-481b-8efa-fe8ad618970f">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:09:25.612Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="63c0d0fa-fab3-4a6c-84f0-342dec552f57">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:09:31.718Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="15326a98-f360-4a1a-b939-514eecef49f8">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:10:04.094Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="d3e615b1-98e5-451f-8c1a-cc22efd6a479">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:11:32.821Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="7051d371-4ca6-446c-a904-cc953c19b0f2">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:11:36.157Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="cb838df2-97a0-49a5-a554-487e7e86f33b">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:11:46.120Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="9371a7f2-a98b-4242-9b46-585608424c56">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:13:52.826Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="a7d1d13b-ee0d-4769-a1a6-8423726d6dab">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:14:02.802Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="ef597741-f4aa-4eed-83de-d66f63c2d281">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:14:40.243Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="b0b9e843-1606-4e2c-945b-f63985ecd1f9">
+      <Value Key="ContentTypeStaticName" Value="" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Portal File System" Type="String" />
+      <Value Key="Name" Value="before-all-tests" Type="String" />
+      <Value Key="Path" Value="_before-all-tests.cshtml" Type="String" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="645def2e-e00c-4b34-8b3f-e5575b66adcc">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:17:29.029Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="e8f5e863-0101-444c-9f98-041457ac322e">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:20:34.820Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="0f2426be-0745-4f8d-8967-955dc24bfc68">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:36:01.539Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="f23776f7-4149-46ed-af6b-ad7c6821a9a0">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:37:24.597Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="d44fc509-54fb-4f0c-992b-84db2209824e">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:40:36.507Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="0669755a-0b1a-4021-b9eb-f12d7f447ad5">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:41:38.296Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="08446316-f775-42c8-8700-0e7d6ebfafca">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:57:01.984Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="e2c5cb15-534d-4113-acb4-2f2e9ff20d46">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:57:07.613Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="d5b85dce-2bbb-48c3-8f49-121b9ec81e58">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T17:57:55.096Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="83a79ea3-92fc-428f-9100-59d8331eeef0">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T18:00:14.091Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="06d7c4f6-f046-4171-94c0-d5ef2af3e55a">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T18:10:14.812Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="9aed4c83-7761-47c8-aa97-2bc69eb3988e">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T18:10:14.981Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="74e871c4-fac7-40de-8782-51f49f9ab7da">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T18:17:27.603Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="d535acd4-e6ee-4a7d-8732-28eb0f29ad24">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T18:17:27.796Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="537bafb7-ed27-4833-a333-e82401c6ec92">
+      <Value Key="ContentDemoEntity" Value="4b9c8bcc-afd6-4318-8733-3682124f39f2" Type="Entity" />
+      <Value Key="ContentTypeStaticName" Value="9e6401e5-49bd-409d-be83-ac96e40b0c87" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Portal File System" Type="String" />
+      <Value Key="Name" Value="t12" Type="String" />
+      <Value Key="Path" Value="_t12.cshtml" Type="String" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="5a00b2d0-8779-4989-abfe-2d4e579e21de">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T18:31:36.851Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="d321cdeb-16f4-42d6-b1ae-b18d98f0aada" KeyNumber="37">
+      <Value Key="Condition" Value="" Type="String" />
+      <Value Key="Grant" Value="r" Type="String" />
+      <Value Key="Identity" Value="59012994-3494-408D-ABA5-33C29351F4CE" Type="String" />
+      <Value Key="Title" Value="user AppSmurf read permissions the APP" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="7d9d8475-2d07-4120-8fa8-b95d68ebd16a">
+      <Value Key="ContentTypeStaticName" Value="" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Portal File System" Type="String" />
+      <Value Key="Name" Value="t2" Type="String" />
+      <Value Key="Path" Value="_t2.cshtml" Type="String" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t12-content-type-R" EntityGUID="f4dfbe2c-da1f-4737-97b2-533bb802906d">
+      <Value Key="Title" Value="New 't12-content-type-R' from 2018-09-19T18:54:06.438Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="d77f497f-e9a2-4d55-90e9-db55e229b3a0">
+      <Value Key="ContentDemoEntity" Value="163d13e0-3fb5-440e-ad0c-577c7010e49b" Type="Entity" />
+      <Value Key="ContentTypeStaticName" Value="60ff15ed-26d7-46c3-87d2-e2b84828daf6" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Portal File System" Type="String" />
+      <Value Key="Name" Value="t31" Type="String" />
+      <Value Key="Path" Value="_t31.cshtml" Type="String" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="71a82e5c-e9a9-4e0a-ac3b-78f60c7e689c">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T19:44:19.335Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="c625d662-2fd8-404e-864b-c2e2b8a88aee">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T19:49:10.852Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="0961684a-62e2-456c-8780-8d26ee94e7ca">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T19:49:50.092Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="71220dc6-4093-4fd3-bc33-159e0dcd9c08">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T19:50:24.131Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="793aa926-fe9e-4d28-9283-b79a38efcbcc">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T19:50:33.493Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="dc6657a0-99ea-46d7-9f6a-e3e5ba9ce204">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T19:51:03.321Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="c2579049-48ee-4bfc-b8d7-abb4f371442d">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T19:52:41.690Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="39f315bc-e0f7-4617-b5ac-3d0182e56f25">
+      <Value Key="ContentDemoEntity" Value="0886ed2a-c3a1-43f9-a8a2-76c9ef77a928" Type="Entity" />
+      <Value Key="ContentTypeStaticName" Value="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Portal File System" Type="String" />
+      <Value Key="Name" Value="t32" Type="String" />
+      <Value Key="Path" Value="_t32.cshtml" Type="String" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="982b0933-ee57-4765-b4ea-90e91c7fc2a0">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T19:57:56.872Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="e12fb0c3-89a4-49a9-926e-38923cea62e3">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T20:03:53.277Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="5a131646-4569-4059-b6d1-e4fc0de5a911">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:03:53.394Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="8863b704-4c56-42aa-a61f-4e9fdaa30b13">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T20:04:21.651Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="ce921703-9f0f-4ee7-9c0e-ac897644b022">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:04:21.852Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="a89f6cb8-33a3-4895-84d3-e99d6b123106">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:04:41.305Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="1741dfc8-8712-441f-b398-8ed20ddeec05">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:04:48.036Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="ba88edec-7401-4f00-8493-53208752c4e7">
+      <Value Key="ContentDemoEntity" Value="53b2c302-8174-4994-9180-abe362a30194" Type="Entity" />
+      <Value Key="ContentTypeStaticName" Value="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Portal File System" Type="String" />
+      <Value Key="Name" Value="t41" Type="String" />
+      <Value Key="Path" Value="_t41.cshtml" Type="String" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="7e378242-f7c1-43fe-bc5f-4fe7a6a97138">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T20:09:25.983Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="835c39ad-907e-4069-91e9-8a85b5e8202f">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T20:11:51.649Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="2fe9edae-1211-4114-a996-acc6d064885d">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:11:51.800Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="465aca89-00f7-4bff-9dc5-6c9b00c20dd6">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:11:51.909Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="af043661-ff6c-45e9-b942-da0797c5cb30">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T20:12:02.855Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="1b7aec5b-f504-4a0e-8f85-e2ead0fabfc0">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:12:03.089Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="b5a15f89-6798-4232-b2e8-79e7dfc989b4">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:12:03.193Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="07872d7e-1144-4c5e-b7dd-29d859d16d5d">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:12:18.763Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="d3984ee6-6f1c-42f2-afc4-0b7b29cf778a">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:12:18.872Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="2d6d4347-6347-4b0a-81d4-b96d17290418">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:12:26.455Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="f09d53f9-50ce-4fed-b680-bac421d4282f">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:12:26.578Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="e115f9cc-3af4-41a9-9340-bcf11f7fc50a">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:12:33.766Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="85dedc99-75c5-42ad-9982-0f03e327a048">
+      <Value Key="ContentDemoEntity" Value="8c806ae3-bf7e-4f1a-8aa1-851cf9199427" Type="Entity" />
+      <Value Key="ContentTypeStaticName" Value="1236a4af-4bc6-41cb-9e4d-121d829870e6" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Portal File System" Type="String" />
+      <Value Key="Name" Value="t42" Type="String" />
+      <Value Key="Path" Value="_t42.cshtml" Type="String" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="d3c46e8a-a397-48e1-acda-8e24b67aa0f8">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:18:35.203Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t12-content-type-R" EntityGUID="265cca08-c9a3-4a51-82f2-217533ad19d4">
+      <Value Key="Title" Value="New 't12-content-type-R' from 2018-09-19T20:18:51.956Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t12-content-type-R" EntityGUID="bcc5a598-774d-4aff-83b5-b6a8474a201e">
+      <Value Key="Title" Value="New 't12-content-type-R' from 2018-09-19T20:19:52.737Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t12-content-type-R" EntityGUID="7da88151-034a-4127-ab4c-1d66abc69669">
+      <Value Key="Title" Value="New 't12-content-type-R' from 2018-09-19T20:20:09.223Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="c8d5c7a0-ab82-40a3-95a5-ec36009308b9">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T20:20:43.299Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="dc948452-f134-429c-85cc-bc2bb867e875">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:20:43.507Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="af7163fb-5cee-47f3-9e34-dc18385d7d74">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:20:43.709Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="feb7260c-33dd-4e0a-8b46-78c110c9a3a5">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T20:20:55.278Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="62c85a21-06b4-44a4-ab69-282087aba001">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:20:55.452Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="08c99483-3f45-485e-b7b4-c04b334f84c7">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:20:55.566Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="5a6c87a6-4286-4399-82d9-975b72dcb8e2">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:21:06.604Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="e73578f3-3f20-4a7a-a893-d30d4408ecf1">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:21:06.711Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="764cf17f-837e-4589-a395-e3f1e526e98f">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:21:31.138Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="42bd62d7-4c4c-40fd-8c3e-470c18b18de0">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:21:31.254Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="7dd272ec-912f-4119-889c-31a74fe434eb">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:21:48.479Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="fdbc8c5c-4c51-4ea2-9589-35e0143b6d4e">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:21:48.734Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="4c320c11-8ee1-4f10-ba1a-a3c69d553eb1">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:22:02.342Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="18c74fe2-fd4a-47f3-bb2e-78d4826b2ae0">
+      <Value Key="ContentDemoEntity" Value="74509733-003f-47db-ba15-389a4aa44fce" Type="Entity" />
+      <Value Key="ContentTypeStaticName" Value="59d8a385-1f1b-47b3-8991-b2857047cba2" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Portal File System" Type="String" />
+      <Value Key="Name" Value="t43" Type="String" />
+      <Value Key="Path" Value="_t43.cshtml" Type="String" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="89e4fe00-a972-4782-b6c3-4a4c90688776">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T20:23:48.533Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="3e73ca40-1af3-4f10-8ae0-02b2d60bf102">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T20:27:29.863Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="910ca821-911a-4949-b7c7-ee64c4150e6f">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:27:29.994Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="85b4e59e-e5e7-42d4-b97e-00706dce29b3">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:27:30.114Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="bdfcd605-6906-4f04-8264-693ed8296d2c">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T20:27:57.629Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="0434f332-15a1-4201-b953-b524d48e8616">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:27:57.741Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="ddbaf57a-b4ee-4f95-b73b-6e596c0761fb">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:27:57.853Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="3e194e34-9adb-43ba-aec6-1f6c98c45989">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:28:14.775Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="801d8f00-fde0-498d-861a-617a57bce9d0">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:28:14.889Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="7f6addef-ac25-4a4b-8a32-0a6ffc041dbb">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:28:25.367Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="63a57563-dd72-446a-b17e-105c6d350462">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:28:25.548Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="4f900c88-9d44-4711-a287-9ca2eb74df33">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:28:33.029Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t12-content-type-R" EntityGUID="98755e1f-7f1b-4211-bb60-dc7f4026d968">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T20:30:25.095Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="cb8a9a14-e245-4eeb-a173-b35be33f5765">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T20:32:07.841Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="95d20134-4824-43ff-a4b1-4e2d51e47ef7">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T20:32:07.952Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="b06ef8ee-d4a7-41c1-874d-2b533965d5ef">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T20:32:08.072Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="d83c7df0-f924-4fb4-9256-4877301d4d5a">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T20:32:08.452Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="a4e51f98-5a57-48aa-87c1-df4372a3fe09">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T20:32:08.577Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="9658a8ae-c233-4889-a2a9-fdd46bcde038">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T20:32:08.699Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="69a6c48e-55ab-4865-b257-2faa207cd5b2">
+      <Value Key="AllowEdit" Value="True" Type="Boolean" />
+      <Value Key="Description" Value="query without permissions - anon and registered should not be able to query" Type="String" />
+      <Value Key="Name" Value="t51" Type="String" />
+      <Value Key="StreamsOut" Value="ListContent,Default" Type="String" />
+      <Value Key="StreamWiring" Value="0421eab3-b0f5-42c1-bac5-57d646111769:Default&gt;6d08dc70-07c9-45c3-a112-812fa2e4ba3b:Default&#xD;&#xA;0421eab3-b0f5-42c1-bac5-57d646111769:Drafts&gt;6d08dc70-07c9-45c3-a112-812fa2e4ba3b:Drafts&#xD;&#xA;0421eab3-b0f5-42c1-bac5-57d646111769:Published&gt;6d08dc70-07c9-45c3-a112-812fa2e4ba3b:Published&#xD;&#xA;6d08dc70-07c9-45c3-a112-812fa2e4ba3b:Default&gt;Out:ListContent&#xD;&#xA;6d08dc70-07c9-45c3-a112-812fa2e4ba3b:Default&gt;Out:Default" Type="String" />
+      <Value Key="TestParameters" Value="[Module:ModuleID]=685" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="0421eab3-b0f5-42c1-bac5-57d646111769" KeyGuid="69a6c48e-55ab-4865-b257-2faa207cd5b2">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="ICache" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.Caches.ICache, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 440,&#xD;&#xA;  &quot;Left&quot;: 440&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="6d08dc70-07c9-45c3-a112-812fa2e4ba3b" KeyGuid="69a6c48e-55ab-4865-b257-2faa207cd5b2">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="PublishingFilter" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.PublishingFilter, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 300,&#xD;&#xA;  &quot;Left&quot;: 440&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="3d8f8c69-28d1-4332-9275-677b0e6dbaf5">
+      <Value Key="AllowEdit" Value="True" Type="Boolean" />
+      <Value Key="Description" Value="query with a group-permissions, that should be able to read, anon not" Type="String" />
+      <Value Key="Name" Value="t52" Type="String" />
+      <Value Key="StreamsOut" Value="ListContent,Default" Type="String" />
+      <Value Key="StreamWiring" Value="b8ea81ae-3db6-4bd5-8106-bad9447aec09:Default&gt;b274e654-253c-4a61-9325-3bdb47b7a8e5:Default&#xD;&#xA;b8ea81ae-3db6-4bd5-8106-bad9447aec09:Drafts&gt;b274e654-253c-4a61-9325-3bdb47b7a8e5:Drafts&#xD;&#xA;b8ea81ae-3db6-4bd5-8106-bad9447aec09:Published&gt;b274e654-253c-4a61-9325-3bdb47b7a8e5:Published&#xD;&#xA;b274e654-253c-4a61-9325-3bdb47b7a8e5:Default&gt;Out:ListContent&#xD;&#xA;b274e654-253c-4a61-9325-3bdb47b7a8e5:Default&gt;Out:Default" Type="String" />
+      <Value Key="TestParameters" Value="[Module:ModuleID]=685" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="e4b1f139-7c4a-48c8-84ed-8beaa09b4dd2" KeyGuid="3d8f8c69-28d1-4332-9275-677b0e6dbaf5">
+      <Value Key="Condition" Value="" Type="String" />
+      <Value Key="Grant" Value="r" Type="String" />
+      <Value Key="Identity" Value="20" Type="String" />
+      <Value Key="Title" Value="Smurf read" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="DataPipeline" AttributeSetName="DataPipeline" EntityGUID="366423af-8674-47d1-9530-3c5ef5b13dcd">
+      <Value Key="AllowEdit" Value="True" Type="Boolean" />
+      <Value Key="Description" Value="public query (anon-read)" Type="String" />
+      <Value Key="Name" Value="t53" Type="String" />
+      <Value Key="StreamsOut" Value="ListContent,Default" Type="String" />
+      <Value Key="StreamWiring" Value="5cfe7431-fa6c-494d-8d9c-b207402e91ea:Default&gt;5fbc8027-81f1-4da8-9f88-c34e0ba7b629:Default&#xD;&#xA;5cfe7431-fa6c-494d-8d9c-b207402e91ea:Drafts&gt;5fbc8027-81f1-4da8-9f88-c34e0ba7b629:Drafts&#xD;&#xA;5cfe7431-fa6c-494d-8d9c-b207402e91ea:Published&gt;5fbc8027-81f1-4da8-9f88-c34e0ba7b629:Published&#xD;&#xA;5fbc8027-81f1-4da8-9f88-c34e0ba7b629:Default&gt;Out:ListContent&#xD;&#xA;5fbc8027-81f1-4da8-9f88-c34e0ba7b629:Default&gt;Out:Default" Type="String" />
+      <Value Key="TestParameters" Value="[Module:ModuleID]=685" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="172ff006-1768-4a39-8860-34f3f7be916e" KeyGuid="366423af-8674-47d1-9530-3c5ef5b13dcd">
+      <Value Key="Condition" Value="SecurityAccessLevel.Anonymous" Type="String" />
+      <Value Key="Grant" Value="r" Type="String" />
+      <Value Key="Identity" Value="" Type="String" />
+      <Value Key="Title" Value="public query (anon-read)" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="9377803d-6647-449c-b1a4-45b91b19c460">
+      <Value Key="ContentTypeStaticName" Value="" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Portal File System" Type="String" />
+      <Value Key="Name" Value="t5" Type="String" />
+      <Value Key="Path" Value="_t5.cshtml" Type="String" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="c9742aaa-21d9-4b5e-82da-30d162531438">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T20:48:25.818Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="4bc6052e-8f5c-4672-ae7e-d9fdce15d610">
+      <Value Key="Title" Value="New 't11-content-type-without-permissions' from 2018-09-19T20:48:33.645Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="b8ea81ae-3db6-4bd5-8106-bad9447aec09" KeyGuid="3d8f8c69-28d1-4332-9275-677b0e6dbaf5">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="ICache" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.Caches.ICache, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 440,&#xD;&#xA;  &quot;Left&quot;: 440&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="b274e654-253c-4a61-9325-3bdb47b7a8e5" KeyGuid="3d8f8c69-28d1-4332-9275-677b0e6dbaf5">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="PublishingFilter" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.PublishingFilter, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 300,&#xD;&#xA;  &quot;Left&quot;: 440&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="5cfe7431-fa6c-494d-8d9c-b207402e91ea" KeyGuid="366423af-8674-47d1-9530-3c5ef5b13dcd">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="ICache" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.Caches.ICache, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 440,&#xD;&#xA;  &quot;Left&quot;: 440&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Entity" AttributeSetStaticName="DataPipelinePart" AttributeSetName="DataPipelinePart" EntityGUID="5fbc8027-81f1-4da8-9f88-c34e0ba7b629" KeyGuid="366423af-8674-47d1-9530-3c5ef5b13dcd">
+      <Value Key="Description" Value="" Type="String" />
+      <Value Key="Name" Value="PublishingFilter" Type="String" />
+      <Value Key="PartAssemblyAndType" Value="ToSic.Eav.DataSources.PublishingFilter, ToSic.Eav.DataSources" Type="String" />
+      <Value Key="VisualDesignerData" Value="{&#xD;&#xA;  &quot;Top&quot;: 300,&#xD;&#xA;  &quot;Left&quot;: 440&#xD;&#xA;}" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="832c88d6-34b3-4478-8928-fb61e81eef00">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:07:22.193Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="8c3db22f-c74a-4611-bf03-1851cedc0bcd">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T21:10:21.704Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="3f3f1a1d-046c-4601-b214-10a30b5c676c">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:10:21.876Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="c4d941a7-00ec-4cfc-b3d8-54aefc3f378d">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:10:22.006Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="2be5a5c4-d7ad-4f99-afb6-32a3792e1874">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:10:22.316Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="54a71d69-42b6-44ea-8fe0-be51fa66863a">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:10:22.436Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="223430ca-3918-4f4d-8f7e-dc7ea60b012d">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:10:22.568Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="947cc039-eddc-4267-b89a-d57416975b26">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T21:13:14.562Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="007c6ec6-499a-4e1c-a39d-66416d2d6a3e">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:13:14.749Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="0b88a165-4752-4938-b703-b00c4cdc8912">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:13:14.878Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="f042f2d0-2762-436c-bede-dab61cd34ecf">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:13:15.240Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="6250c598-90b0-4c0c-b6b8-8b78133290b7">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:13:15.381Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="e7a5b107-3d66-44e2-ab1e-4a90da35af49">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:13:15.504Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="b6944a5e-b642-4e3a-a2f7-2b599431d1f3">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T21:14:45.936Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="c25a2a55-ea42-4a92-919e-6968193472e5">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:14:46.092Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="6ebc980c-3b40-43f7-9930-54baca14e967">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:14:46.225Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="772c8f77-9195-46a0-98c7-971e61e6ed15">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:14:46.550Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="42c1711f-c3e8-4f1e-add4-da725b4ebafc">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:14:46.665Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="d9e2a300-1cfe-482d-ab4b-d67eaa7ac54a">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:14:46.774Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="3cf5d395-6778-4665-b3e9-af7fe388c5c5">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:16:41.456Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="2a7e1f0d-f525-4976-b1c5-6136c3cddfaa">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:16:41.644Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="0e881e42-b853-438f-9246-010698645252">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:16:41.999Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="deaa553d-5f3b-466c-9040-669b82ace09e">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:16:42.141Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="5360adff-e081-4662-9e39-2d3189f6e525">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:17:25.333Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="1a632905-75ac-45e6-9014-a86d2b6bf6b8">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:17:25.481Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="876fca3b-5390-48ad-ade9-b8b054087d9e">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:17:25.806Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="4d497ab9-3ac9-4f07-b4be-ec2488a5ca5b">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:17:25.938Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="828c387f-8ff6-4c4f-9f7c-fbfc3b17f90f">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:17:36.259Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="0f89b609-714d-414e-8da8-0b73e17f7628">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:17:36.424Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="32d8cf25-6678-48f9-ab09-2d0691f94156">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:17:36.764Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="c9102b31-1e04-455c-bcc4-979e178f8e2a">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:17:36.891Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="0033c985-0361-46e5-95e0-39469d8cbd34">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T21:18:19.275Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="fff3c7f6-bdf6-4f40-82e6-db89b891ab98">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:18:19.408Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="63dfea8a-66db-44c4-b025-9bb99131b900">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:18:19.529Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="92491426-25a6-4065-a2ce-367f136f0c18">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:18:19.834Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="0aa986b8-5c55-4928-b3ab-52161d4a94d0">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:18:19.974Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="105ffbe5-7f3a-45d9-b730-d10d2a227573">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:18:20.090Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="0d11c0a6-7b74-4486-a37a-e8b0073ef921">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T21:20:22.253Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="969dba2c-60e1-4da1-b8ee-209c7f2257ff">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:20:22.448Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="e48ec452-3a96-4974-af87-5af87b88b810">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:20:22.579Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="9da343a8-4af2-48e6-9727-fff3d4bf74f2">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:20:22.921Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="31a344ae-2376-45c9-bb06-78bd8175ee6c">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:20:23.049Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="04022a87-d7f9-4869-ae6c-dec4a7298c95">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:20:23.170Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="a0ff5b4e-d271-4088-a4a2-7ea8637c2ce6">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T21:20:30.100Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="34ed3eb6-e5a9-4c0a-8273-acaa345af74f">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:20:30.213Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="7d8799ca-2d91-4636-b363-00a55bfac3ea">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:20:30.333Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="9fc80be3-af99-4673-b75f-86a9bc775f07">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:20:30.631Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="ff218b01-b501-4395-9a10-6d651c9854a9">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:20:30.746Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="a00c94e9-0a9b-40d9-b768-06bd7d4e52ad">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:20:30.857Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="f9781141-d7b2-48bc-9f26-56813bd01164">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T21:22:46.934Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="f0dbbf49-0784-4575-8b9b-483b4d31568c">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:22:47.127Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="58d114f5-1827-44f8-be1b-ecedac18a51b">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:22:47.268Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="9770984b-2826-4286-af9a-5aabfccad2bc">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:22:47.653Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="7844cd84-e0c5-4b40-a186-8267b4b8eb5b">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:22:47.785Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="b15fe6c6-536e-40f1-96a5-addc87880d24">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:22:47.897Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="af75af1a-b846-4f1d-8f3d-57d5bc130e29">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T21:22:59.486Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="662fef23-cd06-432d-aef1-6088479700ef">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:22:59.688Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="952f5e57-271b-4afc-b664-3a6b09a8c880">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:22:59.870Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="8536f0b4-9278-48f5-85f5-fc1a3dbdd191">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:23:00.487Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="c209e337-8d65-489a-9dd9-703140662cc0">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:23:00.696Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="b779ab14-0b33-4b3b-815b-c5866cc9574c">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:23:00.905Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="fe018b30-7296-4ecc-b048-ed025ba04e2b">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T21:24:25.761Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="e30f4e45-45f4-47f4-b309-9da8ef1512d2">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:24:25.902Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="2e57afae-8f79-4207-a479-6b092ec6bcd5">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:24:26.019Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="56537964-fc29-4adf-8a9b-c049cca36038">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:24:26.332Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="2712e327-54c7-4ed8-a4a3-406e54479314">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:24:26.488Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="e3487b10-e751-401e-8429-cc7b02b00a9a">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:24:26.603Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="07d32df5-f2a1-4441-9807-f798ad493682">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T21:27:12.620Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="cf6d56d2-a73d-45cd-bf6d-9cf208f6709f">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:27:12.793Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="11166262-601f-4fee-a6f3-a9adf977c27c">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:27:12.920Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="a34aebdc-0ce4-442c-b6de-00e996c059d4">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:27:13.253Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="a3664242-1417-4e7d-9e32-34935c77b68c">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:27:13.363Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="5815ee19-2c94-423b-b5c7-ce297b7927a4">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:27:13.468Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="a5f37a2a-cb5a-4c16-b533-091813393f47">
+      <Value Key="Title" Value="New 't31-content-type-C' from 2018-09-19T21:31:50.037Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="1f2ac4df-c72a-4971-a36d-4c0c9992d51a">
+      <Value Key="Title" Value="New 't32-content-type-ED-regR' from 2018-09-19T21:31:50.193Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="af949257-7f18-4a4c-b8ea-5d179cd7198a">
+      <Value Key="Title" Value="New 't41-content-type-anonC' from 2018-09-19T21:31:50.312Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="8105409b-50c2-4eb0-84e6-f66b13888ea1">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:31:50.610Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="833557d0-e494-412a-9143-19527a51bdd2">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:31:50.711Z" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="affa1d45-cdd5-4d2b-9402-261acb7b693a">
+      <Value Key="Title" Value="New by user AppSmurf from 2018-09-19T21:31:50.816Z" Type="String" />
     </Entity>
   </Entities>
   <PortalFiles />
