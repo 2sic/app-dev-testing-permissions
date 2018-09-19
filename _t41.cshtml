@@ -1,0 +1,16 @@
+<h1>4 - Anonymous Tests</h1>
+<h2>@Content.EntityType</h2>
+<h3>content-type without permissions</h3>
+<ol>
+  <li>everybody should be able to create</li>
+  <li>reading shouldn't be possible (except for host/admin)</li>
+</ol>
+<script src="@App.Path/spec/t41.spec.js"></script>
+<script>
+  const t41 = {
+    moduleId: @Dnn.Module.ModuleID,
+    appFolder: '@App.Folder',
+    entityType: '@Content.EntityType',
+  }
+  t41spec(t41.moduleId, t41.appFolder, t41.entityType);
+</script>
