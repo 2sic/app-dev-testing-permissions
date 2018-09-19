@@ -1,7 +1,4 @@
 function login(username, password) {
-  if (userId != -1) {
-    logout();
-  }
   var apiMethod = 'DnnUser/Login';
   var url = apiUrl + apiMethod
     + "?username=" + encodeURIComponent(username)
@@ -23,13 +20,10 @@ function logout() {
   ajax.send(null);
 }
 
-function register(email, password) {
-  if (userId != -1) {
-    logout();
-  }
+function register(username, password) {
   var apiMethod = 'DnnUser/Register';
   var url = apiUrl + apiMethod
-    + "?email=" + encodeURIComponent(email)
+    + "?username=" + encodeURIComponent(username)
     + "&password=" + encodeURIComponent(password);
   // $2sxc(moduleId).webApi.get(url);
   var ajax = new XMLHttpRequest();

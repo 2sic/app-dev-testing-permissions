@@ -52,7 +52,7 @@ public class DnnUserController : SxcApiController
 
   [HttpGet]
   [AllowAnonymous]
-  public bool Register(string email, string password)
+  public bool Register(string username, string password)
   {
     // TODO: Security!!!
 
@@ -68,16 +68,16 @@ public class DnnUserController : SxcApiController
       var user = new UserInfo
       {
         PortalID = Dnn.Portal.PortalId,
-        Username = email,
-        Email = email,
-        DisplayName = email,
+        Username = username,
+        Email = username + @"@lab4dev.ml",
+        DisplayName = username,
         Membership = { Password = password, Approved = true }
       };
 
       var CreateStatus = UserController.CreateUser(ref user);
 
       // if user is created, than login user
-      return (CreateStatus == UserCreateStatus.Success) && Login(email, password);
+      return (CreateStatus == UserCreateStatus.Success) && Login(username, password);
     }
     catch
     {

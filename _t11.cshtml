@@ -6,6 +6,7 @@
 <script>
   // jasmine.getEnv().clearReporters()
   // jasmine.getEnv().addReporter(consoleReporter);
+  jasmine.getEnv().randomizeTests(false);
 </script>
 <!-- include source files here... -->
 <script src="/desktopmodules/tosic_sexycontent/js/2sxc.api.min.js"></script>
@@ -18,31 +19,39 @@
 <!-- <script src="@App.Path/spec/PlayerSpec.js"></script> -->
 
 <hr>
-<h2>Click on button to login as test user...</h2>
+<h2>Click on button to sign in</h2>
 <div>
-  <button onclick="login('Smurfette','Split2018!'); reload(); return false;">Sign in Smurfette</button>
+  <button onclick="login('SuperUser','Split2018!'); reload(); return false;">Sign in SuperUser (Host)</button>
 </div>
 <div>
-  <button onclick="login('Gargamel','Split2018!'); reload(); return false;">Sign in Gargamel</button>
+  <button onclick="login('Papa Smurf','Split2018!'); reload(); return false;">Sign in Papa Smurf (Administrator)</button>
 </div>
 <div>
-  <button onclick="login('Hulk','Split2018!'); reload(); return false;">Sign in Hulk</button>
+  <button onclick="login('Smurfette','Split2018!'); reload(); return false;">Sign in Smurfette (Smurfs)</button>
+</div>
+<div>
+  <button onclick="login('Gargamel','Split2018!'); reload(); return false;">Sign in Gargamel (Bad Guys)</button>
+</div>
+<div>
+  <button onclick="login('Hulk','Split2018!'); reload(); return false;">Sign in Hulk (Registered)</button>
 </div>
 <div>
   <button onclick="logout(); reload(); return false;">Sign out</button>
 </div>
+<p></p>
 
-<h1>@Content.EntityType;</h1>
-
+<h2>Currnet user</h2>
 <div>
   <label>UserID</label>:
   <strong>@Dnn.User.UserID</strong>
 </div>
-
 <div>
   <label>Username</label>:
   <strong>@Dnn.User.Username</strong>
 </div>
+<p></p>
+
+<h1>@Content.EntityType;</h1>
 
 <script>
     var moduleId = @Dnn.Module.ModuleID;
