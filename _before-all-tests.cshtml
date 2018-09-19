@@ -32,9 +32,6 @@
   <button onclick="login(users.PapaSmurf, passwords.default); reload(); return false;">Sign in Papa Smurf (Administrator)</button>
 </div>
 <div>
-  <button onclick="login(users.AppSmurf, passwords.default); reload(); return false;">Sign in AppSmurf (Smurfs, for app-permission checks)</button>
-</div>
-<div>
   <button onclick="login(users.Smurfette, passwords.default); reload(); return false;">Sign in Smurfette (Smurfs)</button>
 </div>
 <div>
@@ -42,6 +39,9 @@
 </div>
 <div>
   <button onclick="login(users.Hulk, passwords.default); reload(); return false;">Sign in Hulk (Registered)</button>
+</div>
+<div>
+  <button onclick="login(users.AppSmurf, passwords.default); reload(); return false;">Sign in AppSmurf (Smurfs, for app-permission checks)</button>
 </div>
 <div>
   <button onclick="logout(); reload(); return false;">Sign out</button>
@@ -57,10 +57,3 @@
   <label>Username</label>:
   <strong>@Dnn.User.Username</strong>
 </div>
-
-<!-- sample START -->
-<script src="@App.Path/src/Player.js"></script>
-<script src="@App.Path/src/Song.js"></script>
-<!-- include spec files here... -->
-<script src="@App.Path/spec/PlayerSpec.js"></script>
-<!-- sample END -->
