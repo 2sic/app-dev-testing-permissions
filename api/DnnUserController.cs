@@ -49,39 +49,4 @@ public class DnnUserController : SxcApiController
       return false;
     }
   }
-
-  [HttpGet]
-  [AllowAnonymous]
-  public bool Register(string username, string password)
-  {
-    // TODO: Security!!!
-
-    try
-    {
-      // 1. Check Password is Valid
-      if (!UserController.ValidatePassword(password)) return false;
-
-      // 2. Check Email is Valid
-      // TODO
-
-      // 3. Add User
-      var user = new UserInfo
-      {
-        PortalID = Dnn.Portal.PortalId,
-        Username = username,
-        Email = username + @"@lab4dev.ml",
-        DisplayName = username,
-        Membership = { Password = password, Approved = true }
-      };
-
-      var CreateStatus = UserController.CreateUser(ref user);
-
-      // if user is created, than login user
-      return (CreateStatus == UserCreateStatus.Success) && Login(username, password);
-    }
-    catch
-    {
-      return false;
-    }
-  }
 }
