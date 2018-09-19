@@ -1,4 +1,4 @@
-function t12(moduleId, appFolder, entityType) {
+function t12spec(moduleId, appFolder, entityType) {
   console.log('stv t12', moduleId, appFolder, entityType);
 
   describe("t12 - content-type with read permissions for a Smurfs", function () {
@@ -28,6 +28,9 @@ function t12(moduleId, appFolder, entityType) {
               break;
             case users.PapaSmurf: // Administrator
               expect(data).toBeNull();
+              break;
+            case users.AppSmurf: // Smurfs group
+              expect(data.status).toBe(403);
               break;
             case users.Smurfette: // Smurfs group
               expect(data.status).toBe(403);
@@ -69,6 +72,9 @@ function t12(moduleId, appFolder, entityType) {
             case users.PapaSmurf: // Administrator
               expect(itemsCount).toBeGreaterThan(0);
               break;
+            case users.AppSmurf: // Smurfs group
+              expect(itemsCount).toBeGreaterThan(0);
+              break;
             case users.Smurfette: // Smurfs group
               expect(itemsCount).toBeGreaterThan(0);
               break;
@@ -103,6 +109,9 @@ function t12(moduleId, appFolder, entityType) {
                 break;
               case users.PapaSmurf: // Administrator
                 expect(data).toBeUndefined();
+                break;
+              case users.AppSmurf: // Smurfs group
+                expect(data.status).toBe(403);
                 break;
               case users.Smurfette: // Smurfs group
                 expect(data.status).toBe(403);

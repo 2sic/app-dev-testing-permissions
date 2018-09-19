@@ -7,8 +7,10 @@
 </ol>
 <script src="@App.Path/spec/t12.spec.js"></script>
 <script>
-  var moduleId = @Dnn.Module.ModuleID;
-  var appFolder = '@App.Folder';
-  var entityType = '@Content.EntityType';
-  t12(moduleId, appFolder, entityType);
+  const t12 = {
+    moduleId: @Dnn.Module.ModuleID,
+    appFolder: '@App.Folder',
+    entityType: '@Content.EntityType',
+  }
+  t12spec(t12.moduleId, t12.appFolder, t12.entityType);
 </script>

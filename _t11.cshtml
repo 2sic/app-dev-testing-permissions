@@ -12,8 +12,10 @@ write, delete) should result in the following effects:</div>
 </ol>
 <script src="@App.Path/spec/t11.spec.js"></script>
 <script>
-  var moduleId = @Dnn.Module.ModuleID;
-  var appFolder = '@App.Folder';
-  var entityType = '@Content.EntityType';
-  t11(moduleId, appFolder, entityType);
+  const t11 = {
+    moduleId: @Dnn.Module.ModuleID,
+    appFolder: '@App.Folder',
+    entityType: '@Content.EntityType',
+  }
+  t11spec(t11.moduleId, t11.appFolder, t11.entityType);
 </script>

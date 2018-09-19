@@ -1,0 +1,15 @@
+<h1>2 - Tests to prepare for App</h1>
+<h3>on the full app, give the user AppSmurf read permissions the APP</h3>
+<ol>
+    <li>test that this one can read all content types</li>
+    <li>other smurfs can only read some</li>
+</ol>
+<script src="@App.Path/spec/t2.spec.js"></script>
+<script>
+  const t2 = {
+    moduleId: @Dnn.Module.ModuleID,
+    appFolder: '@App.Folder',
+    entityTypes: [ t11.entityType, t12.entityType ],
+  }
+  t2spec(t2.moduleId, t2.appFolder, t2.entityTypes);
+</script>
