@@ -6,6 +6,7 @@
 <script src="@App.Path/lib/jasmine-3.2.1/jasmine-html.js"></script>
 <script src="@App.Path/lib/jasmine-3.2.1/boot.js"></script>
 <script src="@App.Path/lib/spec-console-reporter.js"></script>
+<script src="@App.Path/spec/spec-helper.js"></script>
 <script>
   // jasmine.getEnv().clearReporters()
   // jasmine.getEnv().addReporter(consoleReporter);
@@ -13,13 +14,13 @@
 </script>
 <!-- include source files here... -->
 <script src="/desktopmodules/tosic_sexycontent/js/2sxc.api.min.js"></script>
+<script>
+  var appFolder = '@App.Folder';
+  var apiUrl = '/DesktopModules/2sxc/API/app/' + appFolder + '/api/';
+  var userId = @Dnn.User.UserID;
+  var username = '@Dnn.User.Username';
+</script>
 <script src="@App.Path/src/dnn-user.js"></script>
-<script src="@App.Path/src/Player.js"></script>
-<script src="@App.Path/src/Song.js"></script>
-
-<!-- include spec files here... -->
-<script src="@App.Path/spec/SpecHelper.js"></script>
-<!-- <script src="@App.Path/spec/PlayerSpec.js"></script> -->
 
 <hr>
 <h2>Click on button to sign in</h2>
@@ -52,3 +53,10 @@
   <label>Username</label>:
   <strong>@Dnn.User.Username</strong>
 </div>
+
+<!-- sample START -->
+<script src="@App.Path/src/Player.js"></script>
+<script src="@App.Path/src/Song.js"></script>
+<!-- include spec files here... -->
+<script src="@App.Path/spec/PlayerSpec.js"></script>
+<!-- sample END -->

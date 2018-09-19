@@ -1,11 +1,8 @@
-<h1>@Content.EntityType;</h1>
-
+<h1>@Content.EntityType</h1>
+<script src="@App.Path/spec/test1.spec.js"></script>
 <script>
-    var moduleId = @Dnn.Module.ModuleID;
-    var entityType = '@Content.EntityType';
-    var appFolder = '@App.Folder';
-    var userId = @Dnn.User.UserID;
-    var username = '@Dnn.User.Username';
-    var apiUrl = '/DesktopModules/2sxc/API/app/' + appFolder + '/api/';
+  var moduleId = @Dnn.Module.ModuleID;
+  var appFolder = '@App.Folder';
+  var entityType = '@Content.EntityType';
+  t11(moduleId, appFolder, entityType);
 </script>
-<script src="@App.Path/spec/Test1Spec.js"></script>
