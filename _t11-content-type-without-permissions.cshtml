@@ -1,8 +1,8 @@
 <!-- this includes the $2sxc helpers necessary to work --> 
 <script src="/desktopmodules/tosic_sexycontent/js/2sxc.api.min.js"></script>
 
-<h1>Test standard permission on the REST API</h1>
-<h2>1. content-type without permissions</h2>
+<h1>t11 Test standard permission on the REST API</h1>
+<h2>content-type without permissions</h2>
 
 <div>A content-type without permissions. Access to the API for this type (read,
 write, delete) should result in the following effects:</div>
@@ -33,7 +33,7 @@ write, delete) should result in the following effects:</div>
 
 <input type="button" onclick="getAllItems(this)" value="click to start (i)">
 
-<h2>t01-content-type-without-permissions</h2>
+<h2>t11-content-type-without-permissions</h2>
 <div id="message"></div>
 <ol id="items">
 </ol>
@@ -45,7 +45,7 @@ write, delete) should result in the following effects:</div>
 <script>
     // this is the simple, in-page / in-template code
     function getAllItems(mod) {
-        $2sxc(mod).webApi.get('app/auto/content/t01-content-type-without-permissions')
+        $2sxc(mod).webApi.get('app/auto/content/t11-content-type-without-permissions')
             .then(showUpdatedList);
     };
 
@@ -53,7 +53,7 @@ write, delete) should result in the following effects:</div>
         if(!confirm('are you sure?'))
             return;
 
-        $2sxc(mod).webApi.delete('app/auto/content/t01-content-type-without-permissions/' + entityId)
+        $2sxc(mod).webApi.delete('app/auto/content/t11-content-type-without-permissions/' + entityId)
             .then(function(data) {
                 // use the data to show a message
                 getAllItems(mod);
@@ -65,7 +65,7 @@ write, delete) should result in the following effects:</div>
         var newItem = createDemoItem();
 
         // this is the "normal" mode demo - where we're working on the current module
-        $2sxc(moduleId).webApi.post('app/auto/content/t01-content-type-without-permissions', {}, newItem)
+        $2sxc(moduleId).webApi.post('app/auto/content/t11-content-type-without-permissions', {}, newItem)
             .then(function(data){
                 showSuccess(data);
                 getAllItems(moduleId);

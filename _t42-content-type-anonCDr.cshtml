@@ -1,13 +1,11 @@
 <!-- this includes the $2sxc helpers necessary to work --> 
 <script src="/desktopmodules/tosic_sexycontent/js/2sxc.api.min.js"></script>
 
-<h1>Test standard permission on the REST API</h1>
-<h2>2. content-type with read permissions for a Smurfs</h2>
+<h1>t42 - Anonymous Tests</h1>
+<h2>content-type with create-draft permissions for anonymous</h2>
 
 <ol>
-    <li>with a user in this group, it should work</li>
-    <li>with a user in another group, this should fail</li>
-    <li>with anonymous users this should fail</li>
+  <li>everybody should be able to create - but it should always be draft</li>
 </ol>
 
 <hr>
@@ -30,7 +28,7 @@
 
 <input type="button" onclick="getAllItems(this)" value="click to start (i)">
 
-<h2>t02-content-type-R</h2>
+<h2>t42-content-type-anonCDr</h2>
 <div id="message"></div>
 <ol id="items">
 </ol>
@@ -42,7 +40,7 @@
 <script>
     // this is the simple, in-page / in-template code
     function getAllItems(mod) {
-        $2sxc(mod).webApi.get('app/auto/content/t02-content-type-R')
+        $2sxc(mod).webApi.get('app/auto/content/t04-content-type-ED-regR')
             .then(showUpdatedList);
     };
 
@@ -50,7 +48,7 @@
         if(!confirm('are you sure?'))
             return;
 
-        $2sxc(mod).webApi.delete('app/auto/content/t02-content-type-R/' + entityId)
+        $2sxc(mod).webApi.delete('app/auto/content/t04-content-type-ED-regR/' + entityId)
             .then(function(data) {
                 // use the data to show a message
                 getAllItems(mod);
@@ -62,7 +60,7 @@
         var newItem = createDemoItem();
 
         // this is the "normal" mode demo - where we're working on the current module
-        $2sxc(moduleId).webApi.post('app/auto/content/t02-content-type-R', {}, newItem)
+        $2sxc(moduleId).webApi.post('app/auto/content/t04-content-type-ED-regR', {}, newItem)
             .then(function(data){
                 showSuccess(data);
                 getAllItems(moduleId);

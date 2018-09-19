@@ -1,8 +1,8 @@
 <!-- this includes the $2sxc helpers necessary to work --> 
 <script src="/desktopmodules/tosic_sexycontent/js/2sxc.api.min.js"></script>
 
-<h1>Owner tests</h1>
-<h2>1. content-type with create permissions for Smurfs</h2>
+<h1>t31 - Owner tests</h1>
+<h2>content-type with create permissions for Smurfs</h2>
 
 <ol>
     <li>with a user in this group:</li>
@@ -34,7 +34,7 @@
 
 <input type="button" onclick="getAllItems(this)" value="click to start (i)">
 
-<h2>t03-content-type-C</h2>
+<h2>t31-content-type-C</h2>
 <div id="message"></div>
 <ol id="items">
 </ol>
@@ -46,7 +46,7 @@
 <script>
     // this is the simple, in-page / in-template code
     function getAllItems(mod) {
-        $2sxc(mod).webApi.get('app/auto/content/t03-content-type-C')
+        $2sxc(mod).webApi.get('app/auto/content/t31-content-type-C')
             .then(showUpdatedList);
     };
 
@@ -54,7 +54,7 @@
         if(!confirm('are you sure?'))
             return;
 
-        $2sxc(mod).webApi.delete('app/auto/content/t03-content-type-C/' + entityId)
+        $2sxc(mod).webApi.delete('app/auto/content/t31-content-type-C/' + entityId)
             .then(function(data) {
                 // use the data to show a message
                 getAllItems(mod);
@@ -66,7 +66,7 @@
         var newItem = createDemoItem();
 
         // this is the "normal" mode demo - where we're working on the current module
-        $2sxc(moduleId).webApi.post('app/auto/content/t03-content-type-C', {}, newItem)
+        $2sxc(moduleId).webApi.post('app/auto/content/t31-content-type-C', {}, newItem)
             .then(function(data){
                 showSuccess(data);
                 getAllItems(moduleId);

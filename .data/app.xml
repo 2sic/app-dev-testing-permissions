@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.33.00" ExportDate="2018-09-19T07:02:16.6232126+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.33.00" ExportDate="2018-09-19T11:30:11.0184684+02:00">
   <Header>
     <App Guid="65e3a296-b75d-4e7d-a707-524216608e63" />
     <Language Default="en-US" />
@@ -12,7 +12,7 @@
     <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="2SexyContent-App" AlwaysShareConfiguration="false">
       <Attributes />
     </AttributeSet>
-    <AttributeSet StaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" Name="t01-content-type-without-permissions" Description="content-type without permissions" Scope="2SexyContent" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" Name="t11-content-type-without-permissions" Description="content-type without permissions" Scope="2SexyContent" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="Title" Type="String" IsTitle="true">
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="a07d4aaf-ad60-429f-88c9-45513e96d749" KeyNumber="988">
@@ -23,7 +23,7 @@
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" Name="t02-content-type-R" Description="content-type with read permissions for a Smurfs" Scope="2SexyContent" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" Name="t12-content-type-R" Description="content-type with read permissions for a Smurfs" Scope="2SexyContent" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="Title" Type="String" IsTitle="true">
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="4817a8c4-d399-491e-86e4-b0de43367b85" KeyNumber="989">
@@ -34,7 +34,7 @@
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" Name="t03-content-type-C" Description="content-type with create permissions for Smurfs" Scope="2SexyContent" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" Name="t31-content-type-C" Description="content-type with create permissions for Smurfs" Scope="2SexyContent" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="Title" Type="String" IsTitle="true">
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="2a158640-bc0c-484d-a2c9-1f9549de316c" KeyNumber="990">
@@ -45,7 +45,7 @@
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" Name="t04-content-type-ED-regR" Description="content-type with &quot;registered&quot; create permissions, and owner edit / delete permissions" Scope="2SexyContent" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" Name="t32-content-type-ED-regR" Description="content-type with &quot;registered&quot; create permissions, and owner edit / delete permissions" Scope="2SexyContent" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="Title" Type="String" IsTitle="true">
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="c14dcc11-3400-4861-98b8-ed89fdd47266" KeyNumber="991">
@@ -56,7 +56,7 @@
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" Name="t05-content-type-anonC" Description="ontent-type with create permissions for anonymous" Scope="2SexyContent" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" Name="t41-content-type-anonC" Description="content-type with create permissions for anonymous" Scope="2SexyContent" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="Title" Type="String" IsTitle="true">
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="cdd8df2e-df57-4621-a6bc-e40e3b575a41" KeyNumber="992">
@@ -67,7 +67,7 @@
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="1236a4af-4bc6-41cb-9e4d-121d829870e6" Name="t06-content-type-anonCDr" Description="content-type with create-draft permissions for anonymous" Scope="2SexyContent" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="1236a4af-4bc6-41cb-9e4d-121d829870e6" Name="t42-content-type-anonCDr" Description="content-type with create-draft permissions for anonymous" Scope="2SexyContent" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="Title" Type="String" IsTitle="true">
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="6bce4161-b7ec-49cf-b416-41e1bb7b9b44" KeyNumber="993">
@@ -78,7 +78,7 @@
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="59d8a385-1f1b-47b3-8991-b2857047cba2" Name="t07-content-type-anonR" Description="content-type with read permissions for anonymous" Scope="2SexyContent" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="59d8a385-1f1b-47b3-8991-b2857047cba2" Name="t43-content-type-anonR" Description="content-type with read permissions for anonymous" Scope="2SexyContent" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="Title" Type="String" IsTitle="true">
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="10905dcd-483e-447f-8f25-3f50903daeab" KeyNumber="994">
@@ -106,8 +106,8 @@
       <Value Key="ListContentTypeStaticName" Value="" Type="String" />
       <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
       <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t01-content-type-without-permissions" Type="String" />
-      <Value Key="Path" Value="_t01-content-type-without-permissions.cshtml" Type="String" />
+      <Value Key="Name" Value="t11-content-type-without-permissions" Type="String" />
+      <Value Key="Path" Value="_t11-content-type-without-permissions.cshtml" Type="String" />
       <Value Key="PresentationTypeStaticName" Value="" Type="String" />
       <Value Key="PublishData" Value="False" Type="Boolean" />
       <Value Key="StreamsToPublish" Value="" Type="String" />
@@ -115,22 +115,22 @@
       <Value Key="UseForList" Value="False" Type="Boolean" />
       <Value Key="ViewNameInUrl" Value="" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t01-content-type-without-permissions" EntityGUID="943a3f64-6123-4647-ad88-3868d5011cbc">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="943a3f64-6123-4647-ad88-3868d5011cbc">
       <Value Key="Title" Value="New item from 2018-09-18T21:08:20.398Z" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t01-content-type-without-permissions" EntityGUID="236e17b3-a6e0-4f05-93a5-4eb4cd1e324d">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="236e17b3-a6e0-4f05-93a5-4eb4cd1e324d">
       <Value Key="Title" Value="New item from 2018-09-18T21:08:21.579Z" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t01-content-type-without-permissions" EntityGUID="c46f9358-480a-4ec7-8a0d-2eaf78f6d5ce">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="c46f9358-480a-4ec7-8a0d-2eaf78f6d5ce">
       <Value Key="Title" Value="New item from 2018-09-18T21:15:17.895Z" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t01-content-type-without-permissions" EntityGUID="1eacfedc-63c3-4fcf-a6e4-24395f816df0">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="1eacfedc-63c3-4fcf-a6e4-24395f816df0">
       <Value Key="Title" Value="New item from 2018-09-18T21:15:19.092Z" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t01-content-type-without-permissions" EntityGUID="cdc4dbd1-59f3-4012-aa62-83f6ffa95b89">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="cdc4dbd1-59f3-4012-aa62-83f6ffa95b89">
       <Value Key="Title" Value="New item from 2018-09-18T21:15:20.146Z" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t01-content-type-without-permissions" EntityGUID="12ef315a-91d4-409c-b512-666d624e9c28">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="12ef315a-91d4-409c-b512-666d624e9c28">
       <Value Key="Title" Value="New item from 2018-09-18T21:15:21.664Z" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="7756af7f-5637-4878-a1b5-6e8f29990f7e" KeyGuid="9e6401e5-49bd-409d-be83-ac96e40b0c87">
@@ -139,13 +139,13 @@
       <Value Key="Identity" Value="20" Type="String" />
       <Value Key="Title" Value="read permissions for a Smurfs" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t02-content-type-R" EntityGUID="4b9c8bcc-afd6-4318-8733-3682124f39f2">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t12-content-type-R" EntityGUID="4b9c8bcc-afd6-4318-8733-3682124f39f2">
       <Value Key="Title" Value="t02-001" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t02-content-type-R" EntityGUID="7288cd19-ef93-4998-a3f0-52208a636e28">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t12-content-type-R" EntityGUID="7288cd19-ef93-4998-a3f0-52208a636e28">
       <Value Key="Title" Value="New item from 2018-09-18T21:38:43.360Z" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t02-content-type-R" EntityGUID="65e9feeb-db38-441f-82e0-f0accc94e48c">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="9e6401e5-49bd-409d-be83-ac96e40b0c87" AttributeSetName="t12-content-type-R" EntityGUID="65e9feeb-db38-441f-82e0-f0accc94e48c">
       <Value Key="Title" Value="New item from 2018-09-18T21:38:45.031Z" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="dde3ce10-3f64-4411-afd5-8842e4714944" KeyGuid="60ff15ed-26d7-46c3-87d2-e2b84828daf6">
@@ -154,7 +154,7 @@
       <Value Key="Identity" Value="20" Type="String" />
       <Value Key="Title" Value="create permissions for Smurfs" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t03-content-type-C" EntityGUID="163d13e0-3fb5-440e-ad0c-577c7010e49b">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="163d13e0-3fb5-440e-ad0c-577c7010e49b">
       <Value Key="Title" Value="t03-001" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="4afdba3a-8160-4f62-af21-52f628cce3f3">
@@ -164,8 +164,8 @@
       <Value Key="ListContentTypeStaticName" Value="" Type="String" />
       <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
       <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t03-content-type-C" Type="String" />
-      <Value Key="Path" Value="_t03-content-type-C.cshtml" Type="String" />
+      <Value Key="Name" Value="t31-content-type-C" Type="String" />
+      <Value Key="Path" Value="_t31-content-type-C.cshtml" Type="String" />
       <Value Key="PresentationTypeStaticName" Value="" Type="String" />
       <Value Key="PublishData" Value="False" Type="Boolean" />
       <Value Key="StreamsToPublish" Value="" Type="String" />
@@ -180,8 +180,8 @@
       <Value Key="ListContentTypeStaticName" Value="" Type="String" />
       <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
       <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t02-content-type-R" Type="String" />
-      <Value Key="Path" Value="_t02-content-type-R.cshtml" Type="String" />
+      <Value Key="Name" Value="t12-content-type-R" Type="String" />
+      <Value Key="Path" Value="_t12-content-type-R.cshtml" Type="String" />
       <Value Key="PresentationTypeStaticName" Value="" Type="String" />
       <Value Key="PublishData" Value="False" Type="Boolean" />
       <Value Key="StreamsToPublish" Value="" Type="String" />
@@ -189,13 +189,13 @@
       <Value Key="UseForList" Value="False" Type="Boolean" />
       <Value Key="ViewNameInUrl" Value="" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t03-content-type-C" EntityGUID="0f6710d0-cee9-4368-89ae-ec4ac21810ee">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="0f6710d0-cee9-4368-89ae-ec4ac21810ee">
       <Value Key="Title" Value="New item from 2018-09-19T04:13:14.911Z" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t03-content-type-C" EntityGUID="ba831aef-9f4b-49cf-9157-494616321747">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="ba831aef-9f4b-49cf-9157-494616321747">
       <Value Key="Title" Value="New item from 2018-09-19T04:13:16.037Z" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t03-content-type-C" EntityGUID="02295996-e6c5-4b09-938a-c2c47d7839c9">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="60ff15ed-26d7-46c3-87d2-e2b84828daf6" AttributeSetName="t31-content-type-C" EntityGUID="02295996-e6c5-4b09-938a-c2c47d7839c9">
       <Value Key="Title" Value="New item from 2018-09-19T04:14:08.534Z" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="0885ca5c-eeb8-40cf-8b6d-e73b27ab11e1" KeyGuid="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20">
@@ -210,7 +210,7 @@
       <Value Key="Identity" Value="1" Type="String" />
       <Value Key="Title" Value="&quot;registered&quot; create permissions" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t04-content-type-ED-regR" EntityGUID="0886ed2a-c3a1-43f9-a8a2-76c9ef77a928">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="0886ed2a-c3a1-43f9-a8a2-76c9ef77a928">
       <Value Key="Title" Value="t04-001" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="8883a1b0-01a0-4d77-a6ad-2e45fd5fe54a">
@@ -220,8 +220,8 @@
       <Value Key="ListContentTypeStaticName" Value="" Type="String" />
       <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
       <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t04-content-type-ED-regR" Type="String" />
-      <Value Key="Path" Value="_t04-content-type-ED-regR.cshtml" Type="String" />
+      <Value Key="Name" Value="t32-content-type-ED-regR" Type="String" />
+      <Value Key="Path" Value="_t32-content-type-ED-regR.cshtml" Type="String" />
       <Value Key="PresentationTypeStaticName" Value="" Type="String" />
       <Value Key="PublishData" Value="False" Type="Boolean" />
       <Value Key="StreamsToPublish" Value="" Type="String" />
@@ -229,13 +229,13 @@
       <Value Key="UseForList" Value="False" Type="Boolean" />
       <Value Key="ViewNameInUrl" Value="" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t04-content-type-ED-regR" EntityGUID="e41a1cf2-df24-4fd4-a3d8-dfc0d1e9642c">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="e41a1cf2-df24-4fd4-a3d8-dfc0d1e9642c">
       <Value Key="Title" Value="New item from 2018-09-19T04:33:38.546Z" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t04-content-type-ED-regR" EntityGUID="d005dc62-ec80-4361-b1b4-9dd57078d791">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="d005dc62-ec80-4361-b1b4-9dd57078d791">
       <Value Key="Title" Value="New item from 2018-09-19T04:40:20.548Z" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t04-content-type-ED-regR" EntityGUID="bc6406bd-5f9f-4aca-9113-ddf3e341ad02">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="eecd8729-3ac0-4ea2-9d4d-df9ccb864a20" AttributeSetName="t32-content-type-ED-regR" EntityGUID="bc6406bd-5f9f-4aca-9113-ddf3e341ad02">
       <Value Key="Title" Value="New item from 2018-09-19T04:42:45.302Z" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="c1d4c500-51ba-4d84-b832-b0d92a691f5f">
@@ -245,8 +245,8 @@
       <Value Key="ListContentTypeStaticName" Value="" Type="String" />
       <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
       <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t05-content-type-anonC" Type="String" />
-      <Value Key="Path" Value="_t05-content-type-anonC.cshtml" Type="String" />
+      <Value Key="Name" Value="t41-content-type-anonC" Type="String" />
+      <Value Key="Path" Value="_t41-content-type-anonC.cshtml" Type="String" />
       <Value Key="PresentationTypeStaticName" Value="" Type="String" />
       <Value Key="PublishData" Value="False" Type="Boolean" />
       <Value Key="StreamsToPublish" Value="" Type="String" />
@@ -260,7 +260,7 @@
       <Value Key="Identity" Value="" Type="String" />
       <Value Key="Title" Value="create permissions for anonymous" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t05-content-type-anonC" EntityGUID="53b2c302-8174-4994-9180-abe362a30194">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="cfe56b89-0b87-4f88-b2b9-ca99ec3488c7" AttributeSetName="t41-content-type-anonC" EntityGUID="53b2c302-8174-4994-9180-abe362a30194">
       <Value Key="Title" Value="t05-001" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Entity" AttributeSetStaticName="PermissionConfiguration" AttributeSetName="PermissionConfiguration" EntityGUID="310bc4f4-381d-4e60-b2a6-21d11a71cef0" KeyGuid="1236a4af-4bc6-41cb-9e4d-121d829870e6">
@@ -269,7 +269,7 @@
       <Value Key="Identity" Value="" Type="String" />
       <Value Key="Title" Value="create-draft permissions for anonymous" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="1236a4af-4bc6-41cb-9e4d-121d829870e6" AttributeSetName="t06-content-type-anonCDr" EntityGUID="8c806ae3-bf7e-4f1a-8aa1-851cf9199427">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="1236a4af-4bc6-41cb-9e4d-121d829870e6" AttributeSetName="t42-content-type-anonCDr" EntityGUID="8c806ae3-bf7e-4f1a-8aa1-851cf9199427">
       <Value Key="Title" Value="t06-001" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="e91505bf-bd1f-4504-96db-0f9492f3ccdd">
@@ -279,8 +279,8 @@
       <Value Key="ListContentTypeStaticName" Value="" Type="String" />
       <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
       <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t06-content-type-anonCDr" Type="String" />
-      <Value Key="Path" Value="_t06-content-type-anonCDr.cshtml" Type="String" />
+      <Value Key="Name" Value="t42-content-type-anonCDr" Type="String" />
+      <Value Key="Path" Value="_t42-content-type-anonCDr.cshtml" Type="String" />
       <Value Key="PresentationTypeStaticName" Value="" Type="String" />
       <Value Key="PublishData" Value="False" Type="Boolean" />
       <Value Key="StreamsToPublish" Value="" Type="String" />
@@ -301,8 +301,8 @@
       <Value Key="ListContentTypeStaticName" Value="" Type="String" />
       <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
       <Value Key="Location" Value="Portal File System" Type="String" />
-      <Value Key="Name" Value="t07-content-type-anonR" Type="String" />
-      <Value Key="Path" Value="_t07-content-type-anonR.cshtml" Type="String" />
+      <Value Key="Name" Value="t43-content-type-anonR" Type="String" />
+      <Value Key="Path" Value="_t43-content-type-anonR.cshtml" Type="String" />
       <Value Key="PresentationTypeStaticName" Value="" Type="String" />
       <Value Key="PublishData" Value="False" Type="Boolean" />
       <Value Key="StreamsToPublish" Value="" Type="String" />
@@ -310,7 +310,7 @@
       <Value Key="UseForList" Value="False" Type="Boolean" />
       <Value Key="ViewNameInUrl" Value="" Type="String" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="59d8a385-1f1b-47b3-8991-b2857047cba2" AttributeSetName="t07-content-type-anonR" EntityGUID="74509733-003f-47db-ba15-389a4aa44fce">
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="59d8a385-1f1b-47b3-8991-b2857047cba2" AttributeSetName="t43-content-type-anonR" EntityGUID="74509733-003f-47db-ba15-389a4aa44fce">
       <Value Key="Title" Value="t07-001" Type="String" />
     </Entity>
   </Entities>

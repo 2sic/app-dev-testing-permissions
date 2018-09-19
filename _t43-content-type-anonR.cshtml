@@ -1,19 +1,18 @@
 <!-- this includes the $2sxc helpers necessary to work --> 
 <script src="/desktopmodules/tosic_sexycontent/js/2sxc.api.min.js"></script>
 
-<h1>Anonymous Tests</h1>
-<h2>1. content-type with create permissions for anonymous</h2>
+<h1>t43 - Anonymous Tests</h1>
+<h2>content-type with read permissions for anonymous</h2>
 
 <ol>
-  <li>everybody should be able to create</li>
-  <li>reading shouldn't be possible (except for host/admin)</li>
+  <li>everybody should be able to read</li>
 </ol>
 
 <hr>
 
 <div>
     @Edit.Toolbar(Content)
-</div>  
+</div>
 
 <div>
     <div>@Content.EntityGuid</div>
@@ -29,7 +28,7 @@
 
 <input type="button" onclick="getAllItems(this)" value="click to start (i)">
 
-<h2>t05-content-type-anonC</h2>
+<h2>t43-content-type-anonR</h2>
 <div id="message"></div>
 <ol id="items">
 </ol>

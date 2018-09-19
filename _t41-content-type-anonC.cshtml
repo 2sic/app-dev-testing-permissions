@@ -1,18 +1,12 @@
 <!-- this includes the $2sxc helpers necessary to work --> 
 <script src="/desktopmodules/tosic_sexycontent/js/2sxc.api.min.js"></script>
 
-<h1>Owner tests</h1>
-<h2>2. content-type with "registered" create permissions, and owner edit / delete permissions</h2>
+<h1>t41 - Anonymous Tests</h1>
+<h2>content-type with create permissions for anonymous</h2>
 
 <ol>
-  <li>registered users should be able to create</li>
-  <li>anonymous should not</li>
-  <li>only the owner of an item should be able to edit it</li>
-  <li>other registered users should not</li>
-  <li>anonymous not</li>
-  <li>only the owner should be able to delete it</li>
-  <li>other regitsered users not</li>
-  <li>anonymous not</li>
+  <li>everybody should be able to create</li>
+  <li>reading shouldn't be possible (except for host/admin)</li>
 </ol>
 
 <hr>
@@ -35,7 +29,7 @@
 
 <input type="button" onclick="getAllItems(this)" value="click to start (i)">
 
-<h2>t04-content-type-ED-regR</h2>
+<h2>t41-content-type-anonC</h2>
 <div id="message"></div>
 <ol id="items">
 </ol>
