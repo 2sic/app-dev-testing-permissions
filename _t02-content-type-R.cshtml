@@ -1,7 +1,8 @@
 <!-- this includes the $2sxc helpers necessary to work --> 
 <script src="/desktopmodules/tosic_sexycontent/js/2sxc.api.min.js"></script>
 
-<h1>Test02-content-type with read permissions for a Smurfs</h1>
+<h1>Test standard permission on the REST API</h1>
+<h2>2. content-type with read permissions for a Smurfs</h2>
 
 <ol>
     <li>with a user in this group, it should work</li>
@@ -9,20 +10,24 @@
     <li>with anonymous users this should fail</li>
 </ol>
 
- <div>
-     @Edit.Toolbar(Content)
- </div>  
+<hr>
 
- <div>
-     <div>@Content.EntityGuid</div>
-     <div>@Content.EntityId</div>
-     <div>@Content.EntityTitle</div>
-     <div>@Content.EntityType</div>
-     <div>@Content.IsPublished</div>
-     <div>@Content.Modified</div>
-     <div>@Content.Title</div>
- </div>
-    
+<div>
+    @Edit.Toolbar(Content)
+</div>  
+
+<div>
+    <div>@Content.EntityGuid</div>
+    <div>@Content.EntityId</div>
+    <div>@Content.EntityTitle</div>
+    <div>@Content.EntityType</div>
+    <div>@Content.IsPublished</div>
+    <div>@Content.Modified</div>
+    <div>@Content.Title</div>
+</div>
+
+<hr>
+
 <input type="button" onclick="getAllItems(this)" value="click to start (i)">
 
 <h2>t02-content-type-R</h2>
@@ -94,3 +99,5 @@
     }
 </script>
     
+<hr>
+<hr>
