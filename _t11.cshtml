@@ -1,0 +1,55 @@
+<link rel="stylesheet" href="@App.Path/lib/jasmine-3.2.1/jasmine.css">
+<script src="@App.Path/lib/jasmine-3.2.1/jasmine.js"></script>
+<script src="@App.Path/lib/jasmine-3.2.1/jasmine-html.js"></script>
+<script src="@App.Path/lib/jasmine-3.2.1/boot.js"></script>
+<script src="@App.Path/lib/spec-console-reporter.js"></script>
+<script>
+  // jasmine.getEnv().clearReporters()
+  // jasmine.getEnv().addReporter(consoleReporter);
+</script>
+<!-- include source files here... -->
+<script src="/desktopmodules/tosic_sexycontent/js/2sxc.api.min.js"></script>
+<script src="@App.Path/src/dnn-user.js"></script>
+<script src="@App.Path/src/Player.js"></script>
+<script src="@App.Path/src/Song.js"></script>
+
+<!-- include spec files here... -->
+<script src="@App.Path/spec/SpecHelper.js"></script>
+<!-- <script src="@App.Path/spec/PlayerSpec.js"></script> -->
+
+<hr>
+<h2>Click on button to login as test user...</h2>
+<div>
+  <button onclick="login('Smurfette','Split2018!'); reload(); return false;">Sign in Smurfette</button>
+</div>
+<div>
+  <button onclick="login('Gargamel','Split2018!'); reload(); return false;">Sign in Gargamel</button>
+</div>
+<div>
+  <button onclick="login('Hulk','Split2018!'); reload(); return false;">Sign in Hulk</button>
+</div>
+<div>
+  <button onclick="logout(); reload(); return false;">Sign out</button>
+</div>
+
+<h1>@Content.EntityType;</h1>
+
+<div>
+  <label>UserID</label>:
+  <strong>@Dnn.User.UserID</strong>
+</div>
+
+<div>
+  <label>Username</label>:
+  <strong>@Dnn.User.Username</strong>
+</div>
+
+<script>
+    var moduleId = @Dnn.Module.ModuleID;
+    var entityType = '@Content.EntityType';
+    var appFolder = '@App.Folder';
+    var userId = @Dnn.User.UserID;
+    var username = '@Dnn.User.Username';
+    var apiUrl = '/DesktopModules/2sxc/API/app/' + appFolder + '/api/';
+</script>
+<script src="@App.Path/spec/Test1Spec.js"></script>

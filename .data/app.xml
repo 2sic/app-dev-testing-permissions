@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.33.00" ExportDate="2018-09-19T11:30:11.0184684+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="09.33.00" ExportDate="2018-09-19T14:30:09.8164141+02:00">
   <Header>
     <App Guid="65e3a296-b75d-4e7d-a707-524216608e63" />
     <Language Default="en-US" />
@@ -92,10 +92,17 @@
   </AttributeSets>
   <Entities>
     <Entity AssignmentObjectType="App" AttributeSetStaticName="2SexyContent-App" AttributeSetName="2SexyContent-App" EntityGUID="036fa124-b027-4515-9d08-b687825c6fb7" KeyNumber="37">
+      <Value Key="AllowRazorTemplates" Value="True" Type="Boolean" />
+      <Value Key="AllowTokenTemplates" Value="True" Type="Boolean" />
+      <Value Key="Description" Value="" Type="String" />
       <Value Key="DisplayName" Value="app-dev-testing-permissions-REST" Type="String" />
       <Value Key="Folder" Value="app-dev-testing-permissions-REST" Type="String" />
+      <Value Key="Hidden" Value="False" Type="Boolean" />
       <Value Key="OriginalId" Value="" Type="String" />
-      <Value Key="Version" Value="00.00.01" Type="String" />
+      <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String" />
+      <Value Key="RequiredVersion" Value="08.03.00" Type="String" />
+      <Value Key="SupportsAjaxReload" Value="False" Type="Boolean" />
+      <Value Key="Version" Value="00.00.02" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="d80a883a-450c-48a3-9a60-106678d04bcf" KeyNumber="37" />
     <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="a8007adf-c608-4bf9-a559-0e0a1d58dcbf" KeyNumber="37" />
@@ -116,7 +123,7 @@
       <Value Key="ViewNameInUrl" Value="" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="943a3f64-6123-4647-ad88-3868d5011cbc">
-      <Value Key="Title" Value="New item from 2018-09-18T21:08:20.398Z" Type="String" />
+      <Value Key="Title" Value="t01-001" Type="String" />
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="aa40f3ba-c671-463e-b0a7-4adbfd78513a" AttributeSetName="t11-content-type-without-permissions" EntityGUID="236e17b3-a6e0-4f05-93a5-4eb4cd1e324d">
       <Value Key="Title" Value="New item from 2018-09-18T21:08:21.579Z" Type="String" />
@@ -312,6 +319,22 @@
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="59d8a385-1f1b-47b3-8991-b2857047cba2" AttributeSetName="t43-content-type-anonR" EntityGUID="74509733-003f-47db-ba15-389a4aa44fce">
       <Value Key="Title" Value="t07-001" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="4368cb93-2036-4ae5-921c-ef58e443a31e">
+      <Value Key="ContentDemoEntity" Value="943a3f64-6123-4647-ad88-3868d5011cbc" Type="Entity" />
+      <Value Key="ContentTypeStaticName" Value="aa40f3ba-c671-463e-b0a7-4adbfd78513a" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Portal File System" Type="String" />
+      <Value Key="Name" Value="t11" Type="String" />
+      <Value Key="Path" Value="_t11.cshtml" Type="String" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
     </Entity>
   </Entities>
   <PortalFiles />
