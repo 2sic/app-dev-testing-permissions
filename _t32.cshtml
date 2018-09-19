@@ -1,0 +1,21 @@
+<h2>@Content.EntityType</h2>
+<h3>content-type with "registered" create permissions, and owner edit / delete permissions</h3>
+<ol>
+  <li>registered users should be able to create</li>
+  <li>anonymous should not</li>
+  <li>only the owner of an item should be able to edit it</li>
+  <li>other registered users should not</li>
+  <li>anonymous not</li>
+  <li>only the owner should be able to delete it</li>
+  <li>other regitsered users not</li>
+  <li>anonymous not</li>
+</ol>
+<script src="@App.Path/spec/t32.spec.js"></script>
+<script>
+  const t32 = {
+    moduleId: @Dnn.Module.ModuleID,
+    appFolder: '@App.Folder',
+    entityType: '@Content.EntityType',
+  }
+  t32spec(t32.moduleId, t32.appFolder, t32.entityType);
+</script>
