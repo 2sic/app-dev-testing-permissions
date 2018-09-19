@@ -1,7 +1,7 @@
-function t11spec(moduleId, appFolder, entityType) {
-  console.log('stv t11', moduleId, appFolder, entityType);
+function t31spec(moduleId, appFolder, entityType) {
+  console.log('stv t31', moduleId, appFolder, entityType);
 
-  describe("t11 - content-type without permissions", function () {
+  describe("t31 - content-type with create permissions for Smurfs", function () {
     // this creates a demo-item for creating new data
     function createDemoItem() {
       return {
@@ -30,10 +30,10 @@ function t11spec(moduleId, appFolder, entityType) {
               expect(data).toBeNull();
               break;
             case users.AppSmurf: // Smurfs group
-              expect(data.status).toBe(403);
+              expect(data).toBeNull();
               break;
             case users.Smurfette: // Smurfs group
-              expect(data.status).toBe(403);
+              expect(data).toBeNull();
               break;
             case users.Gargamel: // Bad Guys group
               expect(data.status).toBe(403);

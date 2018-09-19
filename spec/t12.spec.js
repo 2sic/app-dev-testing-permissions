@@ -64,7 +64,7 @@ function t12spec(moduleId, appFolder, entityType) {
             item2Delete = null;
           }
 
-          console.log('stv itemsCount', itemsCount);
+          console.log('stv itemsCount ' + entityType, itemsCount);
           switch (username) {
             case users.SuperUser: // Host user
               expect(itemsCount).toBeGreaterThan(0);

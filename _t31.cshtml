@@ -1,0 +1,21 @@
+<h1>3 - Owner tests</h1>
+<h2>@Content.EntityType</h2>
+<h3>content-type with create permissions for Smurfs</h3>
+<ol>
+    <li>with a user in this group:</li>
+    <ol>
+      <li>create should work</li>
+      <li>read should fail (because only create is given)</li>
+    </ol>
+    <li>with a user in another group, create and read should fail</li>
+    <li>with anonymous users, create and read should fail</li>
+</ol>
+<script src="@App.Path/spec/t31.spec.js"></script>
+<script>
+  const t31 = {
+    moduleId: @Dnn.Module.ModuleID,
+    appFolder: '@App.Folder',
+    entityType: '@Content.EntityType',
+  }
+  t31spec(t31.moduleId, t31.appFolder, t31.entityType);
+</script>
