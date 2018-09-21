@@ -1,3 +1,17 @@
+@using DotNetNuke.Security.Membership;
+@functions{
+  string GetCurrentUserGuid(string username)
+  {
+    if (string.IsNullOrEmpty(username)) 
+    { 
+      return string.Empty;
+    }
+    else
+    {
+      return string.Format("{0}",Membership.GetUser(username).ProviderUserKey);
+    }
+  }
+}
 <h1>app-dev-testing-permissions-REST</h1>
 <h2>before all tests</h2>
 <a href="javascript:install()">install users and roles</a>
@@ -52,10 +66,11 @@
 
 <h2>Currnet user</h2>
 <div>
-  <label>UserID</label>:
-  <strong>@Dnn.User.UserID</strong>
-</div>
-<div>
   <label>Username</label>:
   <strong>@Dnn.User.Username</strong>
 </div>
+<div>
+  <label>UserGuid</label>:
+  <strong>@GetCurrentUserGuid(@Dnn.User.Username)</strong>
+</div>
+<p></p>
