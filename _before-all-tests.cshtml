@@ -1,6 +1,21 @@
+@using DotNetNuke.Security.Membership;
+@functions{
+  string GetCurrentUserGuid(string username)
+  {
+    if (string.IsNullOrEmpty(username)) 
+    { 
+      return string.Empty;
+    }
+    else
+    {
+      return string.Format("{0}",Membership.GetUser(username).ProviderUserKey);
+    }
+  }
+}
 <h1>app-dev-testing-permissions-REST</h1>
 <h2>before all tests</h2>
-
+<a href="javascript:install()">install users and roles</a>
+<div id="userRolesStatus"></div>
 <link rel="stylesheet" href="@App.Path/lib/jasmine-3.2.1/jasmine.css">
 <script src="@App.Path/lib/jasmine-3.2.1/jasmine.js"></script>
 <script src="@App.Path/lib/jasmine-3.2.1/jasmine-html.js"></script>
@@ -19,6 +34,7 @@
   var apiUrl = '/DesktopModules/2sxc/API/app/' + appFolder + '/api/';
   var userId = @Dnn.User.UserID;
   var username = '@Dnn.User.Username';
+  var moduleId = @Dnn.Module.ModuleID
 </script>
 <script src="@App.Path/src/dnn-user.js"></script>
 <script src="@App.Path/src/test-dnn-users.js"></script>
@@ -50,10 +66,11 @@
 
 <h2>Currnet user</h2>
 <div>
-  <label>UserID</label>:
-  <strong>@Dnn.User.UserID</strong>
-</div>
-<div>
   <label>Username</label>:
   <strong>@Dnn.User.Username</strong>
 </div>
+<div>
+  <label>UserGuid</label>:
+  <strong>@GetCurrentUserGuid(@Dnn.User.Username)</strong>
+</div>
+<p></p>
