@@ -1,6 +1,7 @@
 <h1>app-dev-testing-permissions-REST</h1>
 <h2>before all tests</h2>
-
+<a href="javascript:install()">install users and roles</a>
+<div id="userRolesStatus"></div>
 <link rel="stylesheet" href="@App.Path/lib/jasmine-3.2.1/jasmine.css">
 <script src="@App.Path/lib/jasmine-3.2.1/jasmine.js"></script>
 <script src="@App.Path/lib/jasmine-3.2.1/jasmine-html.js"></script>
@@ -19,6 +20,7 @@
   var apiUrl = '/DesktopModules/2sxc/API/app/' + appFolder + '/api/';
   var userId = @Dnn.User.UserID;
   var username = '@Dnn.User.Username';
+  var moduleId = @Dnn.Module.ModuleID
 </script>
 <script src="@App.Path/src/dnn-user.js"></script>
 <script src="@App.Path/src/test-dnn-users.js"></script>
