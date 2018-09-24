@@ -36,7 +36,7 @@ function t42spec(moduleId, appFolder, entityType) {
               expect(data.status).toBe(401);
               break;
             case users.Gargamel: // Bad Guys group
-              expect(data).toBeNull();
+            expect(data.status).toBe(401);
               break;
             case users.Hulk: // Registered user
               expect(data).toBeNull();
