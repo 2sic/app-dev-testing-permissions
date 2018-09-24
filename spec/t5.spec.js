@@ -18,7 +18,7 @@ function t5spec(moduleId, appFolder) {
       var query = "t51";
 
       it("read query", (done) => {
-        $2sxc(moduleId).webApi.get('app/' + appFolder + '/query/' + query)
+        $2sxc(moduleId).webApi.get('app/' + appFolder + '/query/' + query, null, null, true)
           .always(function (data) {
 
             if (data && data.ListContent && data.ListContent.length > 0) {
@@ -32,7 +32,7 @@ function t5spec(moduleId, appFolder) {
                 expect(itemsCount).toBeGreaterThan(0);
                 break;
               case users.PapaSmurf: // Administrator
-                expect(itemsCount).toBeGreaterThan(0);
+                expect(itemsCount).toBe(0);
                 break;
               case users.AppSmurf: // Smurfs group
                 expect(data.status).toBe(401);
@@ -71,7 +71,7 @@ function t5spec(moduleId, appFolder) {
       var query = "t52";
 
       it("read items", (done) => {
-        $2sxc(moduleId).webApi.get('app/' + appFolder + '/query/' + query)
+        $2sxc(moduleId).webApi.get('app/' + appFolder + '/query/' + query, null, null, true)
           .always(function (data) {
 
             if (data && data.ListContent && data.ListContent.length > 0) {
@@ -86,7 +86,7 @@ function t5spec(moduleId, appFolder) {
                 expect(itemsCount).toBeGreaterThan(0);
                 break;
               case users.PapaSmurf: // Administrator
-                expect(itemsCount).toBeGreaterThan(0);
+                expect(itemsCount).toBe(0);
                 break;
               case users.AppSmurf: // Smurfs group
                 expect(itemsCount).toBeGreaterThan(0);
@@ -125,7 +125,7 @@ function t5spec(moduleId, appFolder) {
       var query = "t53";
 
       it("read items", (done) => {
-        $2sxc(moduleId).webApi.get('app/' + appFolder + '/query/' + query)
+        $2sxc(moduleId).webApi.get('app/' + appFolder + '/query/' + query, null, null, true)
           .always(function (data) {
 
             if (data && data.ListContent && data.ListContent.length > 0) {
