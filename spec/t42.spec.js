@@ -30,20 +30,20 @@ function t42spec(moduleId, appFolder, entityType) {
               expect(data).toBeNull();
               break;
             case users.AppSmurf: // Smurfs group
-              expect(data).toBeNull();
+              expect(data.status).toBe(401);
               break;
             case users.Smurfette: // Smurfs group
               expect(data.status).toBe(401);
               break;
             case users.Gargamel: // Bad Guys group
-            expect(data.status).toBe(401);
+              expect(data.status).toBe(401);
               break;
             case users.Hulk: // Registered user
-              expect(data).toBeNull();
+              expect(data.status).toBe(401);
               break;
             case users.Anonymous: // without user
             default:
-              expect(data).toBeNull();
+              expect(data.status).toBe(401);
           }
           done();
         });
@@ -73,7 +73,7 @@ function t42spec(moduleId, appFolder, entityType) {
               expect(itemsCount).toBeGreaterThan(0);
               break;
             case users.AppSmurf: // Smurfs group
-              expect(itemsCount).toBeGreaterThan(0);
+              expect(itemsCount).toBeGreaterThanOrEqual(0);
               break;
             case users.Smurfette: // Smurfs group
               expect(data.status).toBe(401);

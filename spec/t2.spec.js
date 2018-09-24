@@ -28,7 +28,11 @@ function t2spec(moduleId, appFolder, entityTypes) {
             .always(function (data) {
               switch (username) {
                 case users.AppSmurf: // Smurfs group
-                  expect(data.status).toBe(401);
+                  if (!!data) {
+                    expect(data.status).toBe(401);
+                  } else {
+                    expect(data).toBeNull();
+                  }
                   break;
                 default:
                   expect(null).toBeNull();
@@ -55,7 +59,7 @@ function t2spec(moduleId, appFolder, entityTypes) {
               console.log('stv itemsCount ' + entityType, itemsCount);
               switch (username) {
                 case users.AppSmurf: // Smurfs group
-                  expect(itemsCount).toBeGreaterThan(0);
+                  expect(itemsCount).toBeGreaterThanOrEqual(0);
                   break;
                 case users.Anonymous: // without user
                 default:

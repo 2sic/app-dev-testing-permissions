@@ -73,7 +73,7 @@ function t32spec(moduleId, appFolder, entityType) {
               expect(itemsCount).toBeGreaterThan(0);
               break;
             case users.AppSmurf: // Smurfs group
-              expect(itemsCount).toBeGreaterThan(0);
+              expect(itemsCount).toBe(0);
               break;
             case users.Smurfette: // Smurfs group
               expect(data.status).toBe(401);
@@ -111,7 +111,7 @@ function t32spec(moduleId, appFolder, entityType) {
                 expect(data).toBeUndefined();
                 break;
               case users.AppSmurf: // Smurfs group
-                expect(data.status).toBe(401);
+                expect(data.length).toBe(0);
                 break;
               case users.Smurfette: // Smurfs group
                 expect(data.status).toBe(401);
