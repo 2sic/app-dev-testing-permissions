@@ -89,10 +89,10 @@ function t5spec(moduleId, appFolder) {
                 expect(itemsCount).toBe(0);
                 break;
               case users.AppSmurf: // Smurfs group
-                expect(itemsCount).toBeGreaterThan(0);
+                expect(itemsCount).toBe(0);
                 break;
               case users.Smurfette: // Smurfs group
-                expect(itemsCount).toBeGreaterThan(0);
+                expect(itemsCount).toBe(0);
                 break;
               case users.Gargamel: // Bad Guys group
                 expect(data.status).toBe(401);
