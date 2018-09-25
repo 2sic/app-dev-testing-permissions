@@ -1,6 +1,8 @@
 # app-dev-testing-permissions-REST
 App to test the standard permission on the REST API
 
+[How to setup environment for testing permissions with this app?](assets/docs/setup.md)
+
 ## Permission Setup
 
 Create these groups and users to start:
