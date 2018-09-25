@@ -33,7 +33,7 @@ function t31spec(moduleId, appFolder, entityType) {
               expect(data).toBeNull();
               break;
             case users.Smurfette: // Smurfs group
-              expect([401, 403]).toContain(data.status);
+              expect(data).toBeNull();
               break;
             case users.Gargamel: // Bad Guys group
               expect([401, 403]).toContain(data.status);
