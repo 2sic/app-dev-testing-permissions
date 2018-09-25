@@ -29,7 +29,7 @@ function t2spec(moduleId, appFolder, entityTypes) {
               switch (username) {
                 case users.AppSmurf: // Smurfs group
                   if (!!data) {
-                    expect(data.status).toBe(401);
+                    expect([401, 403]).toContain(data.status);
                   } else {
                     expect(data).toBeNull();
                   }
@@ -82,7 +82,7 @@ function t2spec(moduleId, appFolder, entityTypes) {
               .always(function (data) {
                 switch (username) {
                   case users.AppSmurf: // Smurfs group
-                    expect(data.status).toBe(401);
+                    expect([401, 403]).toContain(data.status);
                     break;
                   default:
                     expect(null).toBeNull();

@@ -33,17 +33,17 @@ function t31spec(moduleId, appFolder, entityType) {
               expect(data).toBeNull();
               break;
             case users.Smurfette: // Smurfs group
-            expect(data.status).toBe(401);
+              expect([401, 403]).toContain(data.status);
               break;
             case users.Gargamel: // Bad Guys group
-              expect(data.status).toBe(401);
+              expect([401, 403]).toContain(data.status);
               break;
             case users.Hulk: // Registered user
-              expect(data.status).toBe(401);
+              expect([401, 403]).toContain(data.status);
               break;
             case users.Anonymous: // without user
             default:
-              expect(data.status).toBe(401);
+              expect([401, 403]).toContain(data.status);
           }
           done();
         });
@@ -67,26 +67,26 @@ function t31spec(moduleId, appFolder, entityType) {
           console.log('stv itemsCount ' + entityType, itemsCount);
           switch (username) {
             case users.SuperUser: // Host user
-              expect(itemsCount).toBeGreaterThan(0);
+              expect(itemsCount).toBeGreaterThanOrEqual(0);
               break;
             case users.PapaSmurf: // Administrator
-              expect(itemsCount).toBeGreaterThan(0);
+              expect(itemsCount).toBeGreaterThanOrEqual(0);
               break;
             case users.AppSmurf: // Smurfs group
-              expect(itemsCount).toBe(0);
+              expect(itemsCount).toBeGreaterThanOrEqual(0);
               break;
             case users.Smurfette: // Smurfs group
-              expect(data.status).toBe(401);
+              expect([401, 403]).toContain(data.status);
               break;
             case users.Gargamel: // Bad Guys group
-              expect(data.status).toBe(401);
+              expect([401, 403]).toContain(data.status);
               break;
             case users.Hulk: // Registered user
-              expect(data.status).toBe(401);
+              expect([401, 403]).toContain(data.status);
               break;
             case users.Anonymous: // without user
             default:
-              expect(data.status).toBe(401);
+              expect([401, 403]).toContain(data.status);
           }
           done();
         });
@@ -111,20 +111,20 @@ function t31spec(moduleId, appFolder, entityType) {
                 expect(data).toBeUndefined();
                 break;
               case users.AppSmurf: // Smurfs group
-                expect(data.status).toBe(401);
+                expect([401, 403]).toContain(data.status);
                 break;
               case users.Smurfette: // Smurfs group
-                expect(data.status).toBe(401);
+                expect([401, 403]).toContain(data.status);
                 break;
               case users.Gargamel: // Bad Guys group
-                expect(data.status).toBe(401);
+                expect([401, 403]).toContain(data.status);
                 break;
               case users.Hulk: // Registered user
-                expect(data.status).toBe(401);
+                expect([401, 403]).toContain(data.status);
                 break;
               case users.Anonymous: // without user
               default:
-                expect(data.status).toBe(401);
+                expect([401, 403]).toContain(data.status);
             }
             done();
           });
